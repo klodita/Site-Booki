@@ -1,0 +1,1279 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400&display=swap');
+
+* {
+    font-family:'Raleway', sans-serif ;
+    align-items: center;
+}
+
+/*Travail sur Le menu de Navigation avec le logo*/
+
+.logo
+{
+    padding-left: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+ul{
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+    position: relative;
+   
+}
+
+/*effet de la ligne bleu sur la navigation*/
+
+a:hover {
+    color:#0065FC
+}
+
+.line {
+    border-top: 2px solid transparent;
+    padding-top: 50px;
+    position:relative;
+    bottom:20px;
+    right: 60px;
+}
+
+.line:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 50px;
+    position:relative;
+    bottom:20px;
+    
+}
+
+.line1 {
+    border-top: 2px solid transparent;
+    padding-top: 50px;
+    position:relative;
+    bottom:20px;
+}
+
+.line1:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 50px;
+    position:relative;
+    bottom:20px;
+}
+
+/*travail sur la balise H1 et le paragraphe ci-dessous*/
+
+h1{
+    font-size: large;
+    padding-left: 30px;
+}
+
+h1 + p{
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    
+}
+
+/*Travail sur la barre de recherche*/
+.search
+{
+    display: flex;
+    align-items:baseline;
+    justify-content: baseline;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-left: 25px;
+    position: relative;
+    right: 20px;
+    
+}
+
+.A {
+    text-align: center;
+    border: 0.8px solid #F2F2F2;
+    color: black;
+    font-weight: bold;
+    padding:5px;
+    
+}
+
+
+
+.rep 
+{
+    background-color: #0065FC;
+    color: white;
+    padding: 10px;
+    height: 44px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:50px;
+    bottom:3px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index:1;
+}
+
+
+
+.logo-color{
+    color: black;
+    background-color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    width: 40px;
+    height: 35px;
+    margin:0px;
+    padding:0px;
+    margin-top: 2px;
+    margin-left:2px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding-left:20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:25px;
+    z-index:1;
+    
+}
+
+
+/*Travail sur les Filtres*/
+
+
+
+.Filtre /*toutes ma colonne de filtres*/
+{
+    display: flex;
+    align-items: baseline;
+    font-size: 30px;
+    margin: 20px;
+    padding-left: 15px;
+  
+}
+
+.F1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+
+.F2 /*ma bordure de filtre*/
+{
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin:20px;
+}
+
+.iconefiltres
+{
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+        
+}
+
+.Ftext
+{
+    font-size: 19px;
+    font-weight: bolder;
+    display: flex;
+    padding-right: 10px;
+    
+}
+
+.Ftext:hover
+{
+    color: #0065FC;
+    text-transform:uppercase;
+}
+
+/*information 500 logements*/
+
+.info
+{
+    display: flex;
+    align-items: baseline;
+    padding-left: 35px;
+
+}
+
+.iconeInfo
+{
+    
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    color: #0065FC;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    width:10px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 6px;
+    padding-left:9px;
+    margin-right: 10px;
+    
+
+}
+
+/*Travail sur le Main=contenue de la page"*/
+
+#Hébergementmarseille
+{
+   
+    display: flex;
+    padding-left:20px;
+    
+  
+}
+
+.blochébergement
+{
+    flex:2;
+    height: 750px;
+    background-color: #F2F2F2;
+    margin:20px;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+.blocpopulaire
+{
+    flex:1;
+    height: 750px;
+    background-color: #F2F2F2;
+    margin:20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+}
+
+/*Travail sur les Titres des deux bloc Hebergement et populaire*/
+
+
+.Grostitre1
+{
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+    margin-left: 25px;
+    
+}
+
+.Grostitre2
+{
+    font-size: 22px;
+    position: relative;
+    padding-top: 5px;
+    margin-left: 15px;
+    padding-left: 20px;
+  
+}
+
+/*positionnement de l'icone chart sur le bloc les plus populaires*/
+
+.Positionicon
+
+{
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right:30px;
+}
+.iconechart
+{
+    font-size: 22px;
+    padding-left: 150px;
+}
+
+/*Travail sur le bloc Hébergement à Marseille*/
+
+.cologne1
+{
+    display: flex;
+    align-items: baseline;
+    width: 880px;
+    height: auto;
+    margin:10px;
+    padding: 10px;
+    justify-content: space-between;
+    position: relative;
+    bottom: 90px;
+}
+
+.cologne2
+{
+    display: flex;
+    align-items: baseline;
+    width: 880px;
+    height: auto;
+    margin:20px;
+    padding: 10px;
+    justify-content: space-between;
+    position: relative;
+    bottom: 120px;
+}
+
+.Image1
+{
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin:0px;
+    padding: 0px;
+    width: 260px;
+    height: 185px;
+    position: relative;
+    top: 80px;
+   
+}
+
+.Titrehotel1
+{
+    position: relative;
+    bottom:10px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+  
+}
+
+.soustitre1
+{
+    position: relative;
+    bottom: 25px; 
+    font-size:18px;
+    font-weight: lighter;
+    background-color: white;
+    
+}
+
+.etoile
+{
+    display: flex;
+    align-items: baseline; 
+
+}
+.etoile1
+{
+    color: #0065FC;
+    font-size: 15px;
+    position: relative;
+    bottom: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.photo1
+{
+    display: flex;
+        
+}
+.fond1
+{
+    background-color: white;
+    position: absolute;
+    top:270px;
+    width: 260px;
+    height: 90px;
+    padding-left:10px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+    
+}
+
+.Image2
+{
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin:0px;
+    padding: 0px;
+    width: 260px;
+    height: 185px;
+    object-fit: cover;
+    position: relative;
+    top: 50px;
+    right:10px;
+
+}
+
+
+.Titrehotel2
+{
+    position: relative;
+    top:10px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.soustitre2
+{
+    position: relative;
+    bottom:5px; 
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: white;
+}
+
+
+.fond2
+{
+    background-color: white;
+    position: relative;
+    top:295px;
+    width: 260px;
+    height: 90px;
+    padding-left:10px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    right:10px;
+    z-index: 1;
+
+}
+
+.etoile2
+{
+    color: #0065FC;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+
+/*Travail sur la partie Les plus Populaires*/
+
+
+
+.photo2
+{
+    display: flex;
+    width: 420px;
+    height: 160px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 60px;
+    align-items: center;
+    flex-direction: column;
+    display: inline;
+   
+    
+}
+
+
+.Image3
+{
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin:0px;
+    margin-bottom: 30px;
+    padding: 0px;
+    width: 180px;
+    height: 160px;
+    object-fit: cover;
+    position: relative;
+    float: left;
+    left: 10px;
+    bottom: 5px;
+    
+}
+
+.fond3
+{
+    display: flex;
+    width: 200px;
+    height: 160px;
+    border:5px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: right;
+    position: relative;
+    right: 25px;
+    bottom: 5px;
+    z-index: 1;
+    background-color: white;
+    padding-left: 20px;
+    flex-direction: column;
+  
+}
+
+.Titrehotel3
+{
+  font-size: 18px;
+  width: 150px;
+  font-weight: bolder;
+  position: relative;
+  right:25px;
+  background-color: white;
+    
+}
+
+/*Note le sélecteur à changé car j'ai un souci de titre niveau visuel que je souhaite respecter selon la maquette fournit*/
+
+.x
+{
+  font-size: 18px;
+  width: 200px;
+  font-weight: bolder;
+  position: relative;
+  right:0px;
+  background-color: white;
+    
+}
+
+/*Si modification penser à changer le"Bottom" du sélecteur etoileY*/
+/*Fin de la correction*/
+
+
+.Soustitre3
+{
+    font-size: 18px;
+    width:200px;
+    font-weight: lighter;
+    justify-content: center;
+    position:relative;
+    bottom: 30px;
+    background-color: white;
+}
+
+.etoileX
+{
+    display: flex;
+    align-items: baseline; 
+    position: relative;
+    bottom:5px;
+
+}
+
+.etoileY
+{
+    display: flex;
+    align-items: baseline; 
+    position: relative;
+    bottom:5px;
+
+}
+
+.etoileZ
+{
+    display: flex;
+    align-items: baseline; 
+    position: relative;
+    bottom:5px;
+
+}
+
+.etoile3
+{
+    color: #0065FC;
+    font-size: 15px;
+    position: relative;
+    bottom:0px;
+    right: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Couleur étoile grise*/
+
+.G
+{
+    color: #DEEBFF;
+    font-weight: bolder;
+    
+
+}
+
+
+.Plus /*Petit texte Afficher plus*/
+{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+}
+
+
+/*Superflux pour survoler les cartes */
+
+.Titrehotel1:hover 
+{
+    cursor: pointer;
+    transform: scale(1);
+    
+    
+}
+
+.soustitre1:hover 
+{
+    cursor: pointer;
+    transform: scale(1);
+    
+    
+}
+
+
+/*Travail sur la Partie Activités à Marseille*/
+
+#ActivitéMarseille
+{
+    
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top:40px;
+}
+
+
+.Grostitre3
+{
+    font-size: 15px;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    right:630px;
+    
+    
+}
+
+
+.conteneur
+{
+    
+    width:auto;
+    height: 520px;
+    padding-left:0px;
+    padding-right: 20px;
+    margin: 0px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+  
+}
+
+
+
+/*Travail sur le Bloc1*/
+
+.bloc1
+{
+   
+    flex:1;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 120px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    right:10px;
+    
+}
+
+
+
+.TitreActivité1
+{
+    background-color: white;
+    width: 298px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:370px;
+    z-index: 1;
+    
+   
+}
+
+
+.Activimage1
+{
+ width: 330px;
+ height: 495px;
+ margin: 0px;
+ padding: 0px;
+ display: flex;
+ flex-direction: column;
+ float: left;
+ position: relative;
+ bottom:10px;
+ right: 45px;
+
+
+}
+
+.Activité1
+{
+    width: 320px;
+    height: 475px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin:0px;
+    padding: 0px;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    bottom: 135px;
+    
+}
+
+/*division du bloc1*/
+
+.blocimage
+{
+    width: 330px;
+    height: 495px;
+    margin:0px;
+    padding:0px;
+    display: flex;
+    flex-direction:column;
+    align-items: baseline;
+    justify-content: center;
+    position:relative;
+    left:20px;
+
+}
+
+
+
+.TitreActivité2
+{
+    
+    background-color: white;
+    width: 298px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:125px;
+    z-index: 1;
+  
+}
+
+
+
+.Activimage2
+{
+ width: 332px;
+ height: 300px;
+ margin:0px;
+ padding: 0px;
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ bottom:5px;
+ 
+ 
+}
+
+.Activité2
+{
+    width: 320px;
+    height: 225px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin:0px;
+    padding: 0px;
+    object-fit: cover;
+    position: relative;
+    bottom: 140px;
+    
+}
+
+.TitreActivité3
+{
+    background-color: white;
+    width: 298px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:60px;
+    z-index: 1;
+  
+
+}
+
+.Activimage3
+{
+ width: 330px;
+ height: 180px;
+ margin: 0px;
+ padding: 0px;
+ display: flex;
+ flex-direction: column;
+ position: relative;
+
+ 
+ 
+}
+
+.Activité3
+{
+    width: 320px;
+    height: 180px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin:0px;
+    padding: 0px;
+    object-fit: cover;
+    position: relative;
+    bottom:150px;
+
+    
+
+}
+
+
+
+/*Travail sur le Bloc2 */
+
+
+.bloc2
+{
+   
+    flex:1;
+    height: 500px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    left:20px;
+    
+}
+
+
+
+.TitreActivité4
+{
+    background-color: white;
+    width: 298px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:370px;
+    z-index: 1;
+   
+}
+
+
+.Activimage4
+{
+ width: 330px;
+ height: 495px;
+ margin: 0px;
+ padding: 0px;
+ display: flex;
+ flex-direction: column;
+ float: left;
+ position: relative;
+ bottom:10px;
+ right: 50px;
+ 
+
+}
+
+.Activité4
+{
+    width: 320px;
+    height: 475px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin:0px;
+    padding: 0px;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    bottom: 135px;
+ 
+}
+
+
+
+/*division du bloc2*/
+
+
+.blocimage2
+{
+    width: 330px;
+    height: 495px;
+    margin:0px;
+    padding:0px;
+    display: flex;
+    flex-direction:column;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    left:10px;
+    
+ 
+}
+
+
+.TitreActivité5
+{
+    background-color: white;
+    width: 298px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:80px;
+    z-index: 1;
+}
+
+.Activimage5
+{
+ width: 330px;
+ height: 180px;
+ margin: 0px;
+ padding: 0px;
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ bottom:5px;
+
+}
+
+.Activité5
+{
+    width: 320px;
+    height: 180px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin:0px;
+    padding: 0px;
+    object-fit: cover;
+    position: relative;
+    bottom:140px;
+
+}
+
+.TitreActivité6
+{
+    background-color: white;
+    width: 298px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:180px;
+    z-index: 1;
+   
+}
+
+.Activimage6
+{
+ width: 332px;
+ height: 300px;
+ margin:0px;
+ padding: 0px;
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.Activité6
+{
+    width: 320px;
+    height: 225px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin:0px;
+    padding: 0px;
+    object-fit: cover;
+    position: relative;
+    bottom: 75px;
+    
+}
+
+/*Travail sur le Footer, il y a 3 Bloc*/
+
+#Footer
+{
+    
+   
+    height: 300px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+/*Travail sur les Titres*/
+
+.TitreFooter1
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.TitreFooter2
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.TitreFooter3
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/*Travail sur les Bloc 1*/
+
+
+.Apropos
+{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    right: 30px;
+}
+
+.TitreFooter1
+{
+    font-size: 20px;
+    margin:0px;
+    padding: 0px;
+    font-weight: bolder;
+    justify-content: left;
+    position: relative;
+    left: 10px;
+}
+
+.ListeA
+{
+    height: 300px;
+    display:block;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.Liste1
+{
+    padding-bottom: 5px;
+    position: relative;
+    right:30px;
+}
+
+
+
+
+/*Travail sur le Bloc 2*/
+
+.Noshebergements
+{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    right:50px;
+    
+}
+
+.TitreFooter2
+{
+    font-size: 20px;
+    margin:0px;
+    padding: 0px;
+    font-weight: bolder;
+    justify-content: left;
+    position: relative;
+    left: 10px;
+}
+
+.ListeA
+{
+    height: 300px;
+    display:block;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+   
+}
+
+.Liste2
+{
+    padding-bottom: 5px;
+    position: relative;
+    right:30px;
+}
+
+
+
+
+/*Travail sur le Bloc 3*/
+
+.Assistance
+{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    right: 80px;
+   
+}
+
+.TitreFooter3
+{
+    font-size: 20px;
+    margin:0px;
+    padding: 0px;
+    font-weight: bolder;
+    justify-content: left;
+    position: relative;
+    left: 10px;
+}
+
+.ListeA
+{
+    height: 300px;
+    display:block;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.Liste3
+{
+    padding-bottom: 5px;
+    position: relative;
+    right:30px;
+}
+
+
+
+

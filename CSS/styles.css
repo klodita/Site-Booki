@@ -3,7 +3,7 @@
 * {
     font-family:'Raleway', sans-serif ;
     align-items: center;
-   
+    width:max-content;
 }
 
 /*Travail sur Le menu de Navigation avec le logo*/
@@ -15,26 +15,24 @@
     padding-left: 50px;
     position: relative;
     top:10px;
-    
-    
 }
 
-img {
+img 
+{
     width: 100%;
     height: auto;
-
-    
 }
 
-.nav {
+.nav
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
 }
 
-ul{
+ul
+{
     font-size: 20px;
     display: flex;
     list-style: none;
@@ -42,21 +40,22 @@ ul{
     padding-right: 50px;
 }
 
-a {
+a 
+{
     text-decoration: none;
     color: black;
-    
     position: relative;
-   
 }
 
 /*effet de la ligne bleu sur la navigation*/
 
-a:hover {
+a:hover
+{
     color:#0065FC
 }
 
-.line {
+.line
+{
     border-top: 2px solid transparent;
     padding-top: 50px;
     position:relative;
@@ -64,42 +63,52 @@ a:hover {
     right: 60px;
 }
 
-.line:hover {
+.line:hover
+{
     border-top: 2px solid #0065FC;
     padding-top: 50px;
     position:relative;
     bottom:20px;
-    
 }
 
-.line1 {
+.line1
+{
     border-top: 2px solid transparent;
     padding-top: 50px;
     position:relative;
     bottom:20px;
 }
 
-.line1:hover {
+.line1:hover
+{
     border-top: 2px solid #0065FC;
     padding-top: 50px;
     position:relative;
     bottom:20px;
 }
 
+.pose1
+{
+    position:relative;
+    left: 1080px;
+} 
+
+
 /*travail sur la balise H1 et le paragraphe ci-dessous*/
 
-h1{
+h1
+{
     font-size: large;
     padding-left: 30px;
 }
 
-h1 + p{
+h1 + p
+{
     font-size: 18px;
     position: relative;
     bottom: 10px;
     margin-bottom: 20px;
     padding-left: 30px;
-    
 }
 
 /*Travail sur la barre de recherche*/
@@ -111,8 +120,6 @@ h1 + p{
     padding-left: 25px;
     position: relative;
     left: 5px;
-    
-    
 }
 
 .A {
@@ -122,8 +129,7 @@ h1 + p{
     text-align: baseline;
     border: 0.8px solid #F2F2F2;
     font-weight: bold;
-    padding:5px;
-       
+    padding:5px;  
 }
 
 ::placeholder
@@ -131,7 +137,6 @@ h1 + p{
     font-size:18px;
     color: black;
     opacity: 1;
-
 }
 
 .rep 
@@ -154,8 +159,6 @@ h1 + p{
 }
 
 
-
-
 .logo-color{
     color: black;
     background-color: #F2F2F2;
@@ -176,12 +179,10 @@ h1 + p{
     position: relative;
     bottom:1px;
     z-index:1;
-    
 }
 
 
 /*Travail sur les Filtres*/
-
 
 
 .Filtre /*toutes ma colonne de filtres*/
@@ -191,7 +192,6 @@ h1 + p{
     font-size: 30px;
     margin: 20px;
     padding-left: 15px;
-  
 }
 
 .F1{
@@ -199,7 +199,6 @@ h1 + p{
     font-size: 20px;
     margin-right: 20px;
 }
-
 
 
 .F2 /*ma bordure de filtre*/
@@ -225,8 +224,7 @@ h1 + p{
     align-items: center;
     justify-content: space-around;
     padding-left: 9px;
-    padding-right:10px;
-           
+    padding-right:10px;      
 }
 
 
@@ -253,12 +251,10 @@ h1 + p{
     display: flex;
     align-items: baseline;
     padding-left: 35px;
-
 }
 
 .iconeInfo
 {
-    
     border: 2px solid #F2F2F2;
     border-radius: 25px;
     color: #0065FC;
@@ -272,19 +268,14 @@ h1 + p{
     padding-right: 6px;
     padding-left:9px;
     margin-right: 10px;
-    
-
 }
 
 /*Travail sur le Main=contenue de la page"*/
 
 #Hébergementmarseille
 {
-   
     display: flex;
     padding-left:20px;
-    
-  
 }
 
 .blochébergement
@@ -299,7 +290,6 @@ h1 + p{
     margin:20px;
     padding: 20px;
     border-radius: 20px;
-   
 }
 
 .blocpopulaire
@@ -313,8 +303,6 @@ h1 + p{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    
-
 }
 
 /*Travail sur les Titres des deux bloc Hebergement et populaire*/
@@ -327,8 +315,6 @@ h1 + p{
     padding-bottom: 22px;
     position: relative;
     right:30px;
-   
-    
 }
 
 .Grostitre2
@@ -338,8 +324,6 @@ h1 + p{
     padding-top: 5px;
     padding-left: 35px;
     padding-bottom: 20px;
-   
-  
 }
 
 /*positionnement de l'icone chart sur le bloc les plus populaires*/
@@ -377,7 +361,6 @@ h1 + p{
 
 .cologne2
 {
-    
     width: 920px;
     height:240px;
     margin:0px;
@@ -389,7 +372,6 @@ h1 + p{
     position: relative;
     left:2x;
     bottom: 20px;
-    
 }
 
 
@@ -404,7 +386,6 @@ h1 + p{
     padding:0px;
     width: 250px;
     height: 185px;
-  
 }
 
 .fond1
@@ -420,42 +401,35 @@ h1 + p{
     flex-direction: column;
     align-items: baseline;
     position: relative;
-  
     bottom:40px;
     z-index: 1;
-    
 }
 
 
 .Titrehotel1
 {
-    
     font-size: 18px;
     margin:0px;
     padding:0px;
     padding-top:10px;
     padding-left:20px;
     font-weight: bolder;
-  
 }
 
 .soustitre1
 {
-    
     font-size:18px;
     margin:0px;
     padding:0px;
     padding-left:20px;
     font-weight: lighter;
     position: relative;
-    top:5px;
-      
+    top:5px;  
 }
 
 
 .etoile
 {
-
     width: 100px;
     margin:0px;
     padding:0px;
@@ -464,7 +438,6 @@ h1 + p{
     align-items: baseline; 
     position: relative;
     top: 10px;
-
 }
 
 .etoile1
@@ -475,7 +448,6 @@ h1 + p{
     margin: 0px;
     padding: 0px;
     position: relative;
-    
 }
 
 
@@ -492,7 +464,6 @@ h1 + p{
     object-fit: cover;
     position: relative;
     left:0px;
-
 }
 
 
@@ -503,7 +474,6 @@ h1 + p{
     left:10px;
     font-size: 18px;
     font-weight: bolder;
-   
 }
 
 .soustitre2
@@ -513,7 +483,6 @@ h1 + p{
     bottom:5px; 
     font-size: 18px;
     font-weight: lighter;
-
 }
 
 
@@ -528,13 +497,11 @@ h1 + p{
     position: relative;
     bottom: 60px;
     z-index: 1;
-
 }
 
 
 .etoileb
 {
-
     width: 100px;
     margin:0px;
     padding:0px;
@@ -544,18 +511,14 @@ h1 + p{
     right: 10px;
     align-items: baseline; 
     position: relative;
-
 }
 
 .etoile2
 {
     color: #0065FC;
     font-size: 15px;
-    margin: 0px;
-    padding: 0px;
     position: relative;
     left:10px;
-
 }
 
 .Plus /*Petit texte Afficher plus*/
@@ -583,7 +546,6 @@ h1 + p{
     padding-left: 10px;
     position: relative;
     bottom:7px;
-
 }
 
 
@@ -592,8 +554,6 @@ h1 + p{
     border: 5px solid white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin:0px;
-    padding: 0px;
     margin-bottom:30px;
     width: 160px;
     height: 160px;
@@ -603,8 +563,6 @@ h1 + p{
     justify-content: baseline;
     position: relative;
     left: 10px;
-    bottom: 0px;
-   
 }
 
 .fond3
@@ -624,47 +582,36 @@ h1 + p{
     left:2px;
     bottom:131px;
     z-index: 1;
-  
 }
 
 .Titrehotel3
 {
-  font-size: 18px;
-  width: 150px;
-  font-weight: bolder;
-  position: relative;
-  right:0px;
-    
+    font-size: 18px;
+    width: 150px;
+    font-weight: bolder;
 }
 
 /*Travail sur le cadre individuelle de chaque *titrehotel3 pour respecter la mise en page textuelle et visuelle de la maquette*/
 
 .x
 {
-  font-size: 18px;
-  width: 190px;
-  font-weight: bolder;
- 
-  
-     
+    font-size:18px;
+    width: 190px;
+    font-weight: bolder;   
 }
 
 .y
 {
-  font-size: 18px;
-  width: 200px;
-  font-weight: bolder;
-  
+    font-size:18px;
+    width: 200px;
+    font-weight: bolder;
 }
 
 .z
 {
-  font-size: 18px;
-  width: 200px;
-  font-weight: bolder;
-
-  
-    
+    font-size:18px;
+    width:200px;
+    font-weight: bolder;  
 }
 
 /*Si modification penser à changer le"Bottom" du sélecteur etoileY*/
@@ -673,13 +620,12 @@ h1 + p{
 
 .Soustitre3
 {
-    font-size: 18px;
+    font-size:18px;
     width:200px;
     font-weight: lighter;
     justify-content: center;
     position:relative;
     bottom: 30px;
-    
 }
 
 .etoileX
@@ -688,36 +634,28 @@ h1 + p{
     align-items: baseline; 
     position: relative;
     bottom:5px;
-
 }
 
 .etoileY
 {
-    display: flex;
-    align-items: baseline; 
-    position: relative;
+    display:flex;
+    align-items:baseline; 
+    position:relative;
     bottom:5px;
-
 }
 
 .etoileZ
 {
-    display: flex;
-    align-items: baseline; 
-    position: relative;
+    display:flex;
+    align-items:baseline; 
+    position:relative;
     bottom:5px;
-
 }
 
 .etoile3
 {
     color: #0065FC;
     font-size: 15px;
-    position: relative;
-    bottom:0px;
-    right: 0px;
-    margin: 0px;
-    padding: 0px;
 }
 
 /*Couleur étoile grise*/
@@ -726,8 +664,6 @@ h1 + p{
 {
     color: #DEEBFF;
     font-weight: bolder;
-    
-
 }
 
 
@@ -735,13 +671,10 @@ h1 + p{
 
 #ActivitéMarseille
 {
-    
     width: auto;
     height: 700px;
     display: flex;
     flex-direction: column;
-    margin: 0px;
-    padding: 0px;
     position: relative;
     top:40px;
 }
@@ -754,43 +687,29 @@ h1 + p{
     align-items: baseline;
     position: relative;
     right:640px;
-
 }
 
 
 .conteneur
 {
-    
-    width:auto;
+    width:100%;
     height: 520px;
-    padding-left:0px;
-    padding-right: 20px;
-    margin: 0px;
-    padding-left: 20px;
     display: flex;
-    align-items: center;
-    position: relative;
-    bottom: 15px;
-  
+    align-items: baseline;
+    justify-content: baseline;
+    justify-content: space-around;
 }
-
 
 
 /*Travail sur le Bloc1*/
 
 .bloc1
 {
-   
-    flex:1;
-    height: 500px;
-    padding-left: 50px;
-    padding-right: 120px;
     display: flex;
     align-items: baseline;
-    justify-content: center;
-    position: relative;
-    right:10px;
-    
+    justify-content: baseline;
+    position:relative;
+    left:20px;
 }
 
 
@@ -816,22 +735,19 @@ h1 + p{
     left:4px;
     z-index: 1;
     
-   
 }
 
 
 .Activimage1
 {
- width: 330px;
- height: 495px;
- margin: 0px;
- padding: 0px;
- display: flex;
- flex-direction: column;
- float: left;
- position: relative;
- bottom:5px;
- right: 50px;
+    width: 330px;
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: relative;
+    bottom:5px;
+    right: 50px;
 
 }
 
@@ -841,39 +757,28 @@ h1 + p{
     height: 475px;
     border: 5px solid white;
     border-radius: 20px;
-    margin:0px;
-    padding: 0px;
     object-fit: cover;
     display: flex;
     position: relative;
     bottom: 100px;
-  
-    
 }
 
 /*division du bloc1*/
 
 .blocimage
 {
-    width: 330px;
-    height: 495px;
-    margin:0px;
-    padding:0px;
     display: flex;
     flex-direction:column;
     align-items: baseline;
-    justify-content: center;
-    position:relative;
+    justify-content: baseline;
+    position: relative;
     left:20px;
-
-
 }
 
 
 
 .TitreActivité2
 {
-    
     background-color: white;
     width: 298px;
     padding-left:20px;
@@ -891,26 +796,19 @@ h1 + p{
     position: relative;
     top:165px;
     left:4px;
-    z-index: 1;
-
-  
+    z-index: 1; 
 }
 
 
 
 .Activimage2
 {
- width: 332px;
- height: 300px;
- margin:0px;
- padding: 0px;
- display: flex;
- flex-direction: column;
- position: relative;
- bottom:5px;
-
- 
- 
+    width: 332px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:5px;
 }
 
 .Activité2
@@ -919,12 +817,9 @@ h1 + p{
     height: 225px;
     border: 5px solid white;
     border-radius: 20px;
-    margin:0px;
-    padding: 0px;
     object-fit: cover;
     position: relative;
-    bottom: 100px;
-    
+    bottom: 100px;   
 }
 
 .TitreActivité3
@@ -947,20 +842,16 @@ h1 + p{
     left:4px;
     top:95px;
     z-index: 1;
-  
-
 }
 
 .Activimage3
 {
- width: 330px;
- height: 180px;
- margin: 0px;
- padding: 0px;
- display: flex;
- flex-direction: column;
- 
+    width: 330px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .Activité3
 {
@@ -968,14 +859,9 @@ h1 + p{
     height: 180px;
     border: 5px solid white;
     border-radius: 20px;
-    margin:0px;
-    padding: 0px;
     object-fit: cover;
     position: relative;
     bottom:110px;
-
-    
-
 }
 
 
@@ -985,23 +871,18 @@ h1 + p{
 
 .bloc2
 {
-   
-    flex:1;
-    height: 500px;
     display: flex;
     align-items: baseline;
-    justify-content: center;
-    position: relative;
-    left:20px;
-
+    justify-content: baseline;
+    position:relative;
+    left:40px;
 }
-
 
 
 .TitreActivité4
 {
     background-color: white;
-    width: 298px;
+    width: 300px;
     padding-left:20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1017,26 +898,22 @@ h1 + p{
     position: relative;
     top:405px;
     right:7px;
-    z-index: 1;
-   
+    z-index: 1; 
 }
 
 
 .Activimage4
 {
- width: 330px;
- height: 495px;
- margin: 0px;
- padding: 0px;
- display: flex;
- flex-direction: column;
- float: left;
- position: relative;
- bottom:10px;
- right: 50px;
- 
-
+    width: 330px;
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: relative;
+    bottom:10px;
+    right: 50px;
 }
+
 
 .Activité4
 {
@@ -1044,14 +921,11 @@ h1 + p{
     height: 475px;
     border: 5px solid white;
     border-radius: 20px;
-    margin:0px;
-    padding: 0px;
     object-fit: cover;
     display: flex;
     position: relative;
     bottom: 95px;
     right: 10px;
- 
 }
 
 
@@ -1061,18 +935,12 @@ h1 + p{
 
 .blocimage2
 {
-    width: 330px;
-    height: 495px;
-    margin:0px;
-    padding:0px;
     display: flex;
     flex-direction:column;
     align-items: baseline;
-    justify-content: center;
+    justify-content: baseline;
     position: relative;
     left:10px;
-    
- 
 }
 
 
@@ -1098,16 +966,15 @@ h1 + p{
     z-index: 1;
 }
 
+
 .Activimage5
 {
- width: 330px;
- height: 180px;
- margin: 0px;
- padding: 0px;
- display: flex;
- flex-direction: column;
- position: relative;
- bottom:5px;
+    width: 330px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:5px;
 
 }
 
@@ -1117,13 +984,11 @@ h1 + p{
     height: 180px;
     border: 5px solid white;
     border-radius: 20px;
-    margin:0px;
-    padding: 0px;
     object-fit: cover;
     position: relative;
     bottom:100px;
-
 }
+
 
 .TitreActivité6
 {
@@ -1145,19 +1010,17 @@ h1 + p{
     top:215px;
     left:4px;
     z-index: 1;
-   
 }
+
 
 .Activimage6
 {
- width: 332px;
- height: 300px;
- margin:0px;
- padding: 0px;
- display: flex;
- flex-direction: column;
- 
+    width: 330px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .Activité6
 {
@@ -1165,26 +1028,26 @@ h1 + p{
     height: 225px;
     border: 5px solid white;
     border-radius: 20px;
-    margin:0px;
-    padding: 0px;
     object-fit: cover;
     position: relative;
-    bottom: 45px;
-    
+    bottom: 45px;  
 }
+
 
 /*Travail sur le Footer, il y a 3 Bloc*/
 
-#Footer
+.footer
 {
-    
+    width:1579px;
     height: 250px;
     background-color: #F2F2F2;
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content:center;
     justify-content: space-around;
-    position: relative;
-    left:5px;
+   
+    
+    
 }
 
 
@@ -1195,7 +1058,6 @@ h1 + p{
     font-size: 18px;
     font-weight: bolder;
     font-size: 20px;
-    
 }
 
 
@@ -1209,17 +1071,14 @@ h1 + p{
     flex-direction: column;
     align-items: baseline;
     justify-content: space-between;
-    
 }
+
 
 .Liste
 {
-    
     margin:0px;
     padding-bottom: 15px;
     position: relative;
-   
-    
 }
 
 
@@ -1230,14 +1089,14 @@ h1 + p{
 .Apropos
 {
     display: flex;
-    width: 380px;
+    width: 338px;
     height: 200px;
     align-items: baseline;
     justify-content: left;
     flex-direction: column;
     position: relative;
     top:5px;
-    right: 30px;
+    right: 40px;
 }
 
 
@@ -1246,7 +1105,7 @@ h1 + p{
 .Noshebergements
 {
     display: flex;
-    width: 380px;
+    width: 338px;
     height: 200px;
     align-items: baseline;
     justify-content: left;
@@ -1254,7 +1113,6 @@ h1 + p{
     position: relative;
     top:5px;
     right:50px;
-    
 }
 
 
@@ -1271,7 +1129,6 @@ h1 + p{
     position: relative;
     top:5px;
     right: 80px;
-    
 }
 
 

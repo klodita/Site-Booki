@@ -1,116 +1,266 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <Title>BOOKI</Title>
     <script src="https://kit.fontawesome.com/73a134f2ff.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/normalize.css"/>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="CSS/styles.css"/>
 
 </head>
+
+
 <body>
 
     <header>
-     <nav> <div class="nav">
-         <div class="logo"><img src="images/logo/Booki.png" alt="Logo Booki"/></div>
+
+     <nav> 
+
+       <div class="nav">
+
+         <div class="logo">
+         <img src="images/logo/Booki.png" alt="Logo Booki"/>
+        </div>
+
          <ul >
              <li class="line"><a href="#Hébergementmarseille">Hébergements</a></li>
              <li class="line1" ><a href="#ActivitéMarseille">Activités</a></li>
          </ul>
+
         </div>
+
      </nav>
      
+
      <h1>Trouver votre hébergement pour des vacances de rêves</h1>
      <p>En plein centre ville ou en pleine nature</p>
 
     <form class="search">
-        <span class="logo-color"><i class="fa-solid fa-location-dot"></i></span> <input class="A" type="search" value="Marseille,France"/><button class="rep">Recherche</button>
+
+        <span class="logo-color"> 
+          <i class="fa-solid fa-location-dot"></i>
+        </span> 
+
+        <input class="A" type="search" placeholder="Marseille,France"/>
+        <button class="rep textrep">Recherche</button>
     </form>
 
     <div class="Filtre">
         <h3 class="F1">Filtres</h3>
-        <div class="F2"><i class="fa-solid fa-money-bill-wave iconefiltres"></i> <span class="Ftext">Economie </span></div> 
-        <div class="F2"><i class="fa-solid fa-child-reaching iconefiltres"></i> <span class="Ftext"> Familial </span></div> 
-        <div class="F2"><i class="fa-solid fa-heart iconefiltres "></i> <span class="Ftext"> Romantique </span></div> 
-        <div class="F2"><i class="fa-solid fa-dog iconefiltres"></i> <span class="Ftext"> Animaux autorisés </span></div> 
+
+        <div class="F2">
+          <i class="fa-solid fa-money-bill-wave iconefiltres"></i> 
+          <span class="Ftext">Economie </span>
+        </div> 
+
+        <div class="F2">
+          <i class="fa-solid fa-child-reaching iconefiltres"></i>
+          <span class="Ftext"> Familial </span>
+        </div> 
+
+        <div class="F2">
+        <i class="fa-solid fa-heart iconefiltres "></i> 
+        <span class="Ftext"> Romantique </span>
+        </div> 
+
+        <div class="F2">
+          <i class="fa-solid fa-dog iconefiltres"></i> 
+          <span class="Ftext"> Animaux autorisés </span>
+        </div> 
 
     </div>
 
-    <div class="info"> <i class="fa-solid fa-info iconeInfo"></i> <p> Plus de 500 logements sont disponibles dans cette ville</p></div>
+        <div class="info"> 
+          <i class="fa-solid fa-info iconeInfo"></i> 
+          <p> Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
 
     </header>
 
 
     <main>
-        <section id="Hébergementmarseille">
 
-            <!--Partie Hébergement à Marseille-->
+      <section id="Hébergementmarseille">
 
-            <div class="blochébergement">
-                <div><h2 class="Grostitre1">Hébergemet à Marseille</h2></div>
+        <!--Partie Hébergement à Marseille-->
+
+         <div class="blochébergement">
+          
+            <div><h2 class="Grostitre1">Hébergemet à Marseille</h2></div>
                
-                <div class="cologne1">
+         <!-- Première Cologne de photo-->
 
-              <!-- Première photo-->
+        <div class="cologne1">
+
+          <a href="#">
+           <img  class="Image1" src="images/hebergements/3_medium/Auberge La Cannebiere.jpg" alt="Auberge La Cannebière"/>
               
-                <div class="Photo1"><p><a href="#"><div class="fond1"><p class="Titrehotel1">Hôtel La Cannebière</p><p class="soustitre1">Nuit à partir de 25€</p><div class="etoile"><i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1"></i>
-                  <i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1 G"></i></div>
-                    </div><img  class="Image1" src="images/hebergements/3_medium/Auberge La Cannebiere.jpg" alt="Auberge La Cannebière"/></a></p></div>
+           <div class="fond1">
+                    <p class="Titrehotel1">Hôtel La Cannebière</p>
+                    <p class="soustitre1">Nuit à partir de 25€</p>
+          
+                    <div class="etoile"><i class="fa-solid fa-star etoile1"></i> 
+                      <i class="fa-solid fa-star etoile1"></i>
+                      <i class="fa-solid fa-star etoile1"></i> 
+                      <i class="fa-solid fa-star etoile1"></i> 
+                      <i class="fa-solid fa-star etoile1 G"></i>
+                  </div></div></a>
                 
-              <!-- deuxième photo-->
-              <div class="Photo1"><p><a href="#"><div class="fond1"><p class="Titrehotel1">Hôtel du port</p><p class="soustitre1" >Nuit à partir de 52€</p><div class="etoile"><i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1"></i>
-                <i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1"></i></div>
-                  </div><img class="Image1"src="images/hebergements/3_medium/Hotel du port.jpg" alt="Hotel du port"/></a></p></div>
 
               <!-- deuxième photo-->
-              <div class="Photo1"><p><a href="#"><div class="fond1"><p class="Titrehotel1">Hôtel Les mouettes</p><p class="soustitre1" >Nuit à partir de 76€</p><div class="etoile"><i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1"></i>
-                <i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1"></i> <i class="fa-solid fa-star etoile1 G"></i></div>
-                  </div><img class="Image1" src="images/hebergements/3_medium/Hotel Les mouettes.jpg" alt="Hotel Les mouettes"/></a></p></div>
-              <!-- Div cologne1-->
-            </div>
+              
+              <a href="#"><img class="Image1"src="images/hebergements/3_medium/Hotel du port.jpg" alt="Hotel du port"/>
+                <div class="fond1">
+                  <p class="Titrehotel1">Hôtel du port</p>
+                  <p class="soustitre1" >Nuit à partir de 52€</p>
+                
+                <div class="etoile">
+                  <i class="fa-solid fa-star etoile1"></i> 
+                  <i class="fa-solid fa-star etoile1"></i>
+                  <i class="fa-solid fa-star etoile1"></i> 
+                  <i class="fa-solid fa-star etoile1"></i> 
+                  <i class="fa-solid fa-star etoile1"></i>
+                </div>
+                  </div></a>
+
+              <!-- deuxième photo-->
+              <a href="#"><img class="Image1" src="images/hebergements/3_medium/Hotel Les mouettes.jpg" alt="Hotel Les mouettes"/>
+                <div class="fond1">
+                  <p class="Titrehotel1">Hôtel Les mouettes</p>
+                  <p class="soustitre1" >Nuit à partir de 76€</p>
+                
+                <div class="etoile">
+                  <i class="fa-solid fa-star etoile1"></i> 
+                  <i class="fa-solid fa-star etoile1"></i>
+                  <i class="fa-solid fa-star etoile1"></i> 
+                  <i class="fa-solid fa-star etoile1"></i> 
+                  <i class="fa-solid fa-star etoile1 G"></i>
+                </div>
+                  </div></a>
+
+         </div>
 
 
-            <div class="cologne2">
+                <!-- Deuxième cologne de photo-->
+
+
+                <div class="cologne2">
 
                 <!-- Première photo-->
-                  <div class="Photo1"><p><a href="#"><div class="fond2"><p class="Titrehotel2">Hôtel de la mer</p><p class="soustitre2" >Nuit à partir de 46€</p><div class="etoile"><i class="fa-solid fa-star etoile2"></i> <i class="fa-solid fa-star etoile2"></i>
-                    <i class="fa-solid fa-star etoile2"></i> <i class="fa-solid fa-star etoile2 G"></i> <i class="fa-solid fa-star etoile2 G"></i></div>
-                      </div><img class="Image2" src="images/hebergements/3_medium/Hotel de la mer.jpg" alt="Hotel de la mer"/></a></p></div>
+                  <a href="#"><img class="Image2" src="images/hebergements/3_medium/Hotel de la mer.jpg" alt="Hotel de la mer"/>
+                    <div class="fond2">
+                      <p class="Titrehotel2">Hôtel de la mer</p>
+                      <p class="soustitre2" >Nuit à partir de 46€</p>
+                      
+                    <div class="etoileb">
+                      <i class="fa-solid fa-star etoile2"></i> 
+                      <i class="fa-solid fa-star etoile2"></i>
+                      <i class="fa-solid fa-star etoile2"></i> 
+                      <i class="fa-solid fa-star etoile2 G"></i> 
+                      <i class="fa-solid fa-star etoile2 G"></i>
+                    </div>
+                      </div></a>
                        
                 <!-- deuxième photo-->
-                <div class="Photo1"><p><a href="#"><div class="fond2"><p class="Titrehotel2">Auberge Le Panier</p><p class="soustitre2">Nuit à partir de 23€</p><div class="etoile"><i class="fa-solid fa-star etoile2"></i> <i class="fa-solid fa-star etoile2"></i>
-                  <i class="fa-solid fa-star etoile2"></i> <i class="fa-solid fa-star etoile2"></i> <i class="fa-solid fa-star etoile2 G"></i></div>
-                    </div><img class="Image2" src="images/hebergements/3_medium/Auberge Le Panier.jpg" alt="Auberge Le Panier"/></a></p></div>
+               <a href="#"><img class="Image2" src="images/hebergements/3_medium/Auberge Le Panier.jpg" alt="Auberge Le Panier"/>
+                 <div class="fond2">
+                   <p class="Titrehotel2">Auberge Le Panier</p>
+                   <p class="soustitre2">Nuit à partir de 23€</p>
+              
+                 <div class="etoileb">
+                  <i class="fa-solid fa-star etoile2"></i> 
+                  <i class="fa-solid fa-star etoile2"></i>
+                  <i class="fa-solid fa-star etoile2"></i> 
+                  <i class="fa-solid fa-star etoile2"></i> 
+                  <i class="fa-solid fa-star etoile2 G"></i>
+                 </div>
+                    </div></a>
   
                 <!-- deuxième photo-->
-                <div class="Photo1"><p><a href="#"><div class="fond2"><p class="Titrehotel2">Hôtel chez Amina</p><p class="soustitre2">Nuit à partir de 96€</p><div class="etoile"><i class="fa-solid fa-star etoile2"></i> <i class="fa-solid fa-star etoile2"></i>
-                  <i class="fa-solid fa-star etoile2"></i> <i class="fa-solid fa-star etoile2"></i> <i class="fa-solid fa-star etoile2"></i></div>
-                    </div><img class="Image2" src="images/hebergements/3_medium/Hotel chez Amina.jpg" alt="Hotel chez Amina"/></a></p></div>
-                <!-- Div cologne1-->
+                <a href="#"><img class="Image2" src="images/hebergements/3_medium/Hotel chez Amina.jpg" alt="Hotel chez Amina"/>
+                  <div class="fond2">
+                    <p class="Titrehotel2">Hôtel chez Amina</p>
+                    <p class="soustitre2">Nuit à partir de 96€</p>
+                    
+                  <div class="etoileb">
+                    <i class="fa-solid fa-star etoile2"></i>
+                    <i class="fa-solid fa-star etoile2"></i>
+                    <i class="fa-solid fa-star etoile2"></i> 
+                    <i class="fa-solid fa-star etoile2"></i> 
+                    <i class="fa-solid fa-star etoile2"></i>
+                  </div>
+                    </div></a>
+
               </div>
 
               <p class="Plus">Afficher plus</p>
 
             </div>
 
+
             <!-- Partie Les plus populaires-->
+
             <aside class="blocpopulaire">
-                <div class="Positionicon"><h2 class="Grostitre2">Les plus populaires</h2><p class="iconechart"><i class="fa-solid fa-chart-line"></i></p></div>
+
+                <div class="Positionicon">
+                  <h2 class="Grostitre2">Les plus populaires</h2>
+                  <p class="iconechart">
+                  <i class="fa-solid fa-chart-line"></i>
+                </p>
+              </div>
+
+
                 <!--Première photo-->
-                <div class="photo2"><p><a href="#"><div class="fond3"><p class="Titrehotel3">Hôtel Le soleil du Matin</p><p class="Soustitre3">Nuit à partir de 128€</p><div class="etoileX"><i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3"></i>
-                  <i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3"></i></div></div>
-                <img class="Image3" src="images/hebergements/3_medium/Hotel Le soleil du matin.jpg" alt="Hotel Le soleil du matin"/></a></p></div>
+                
+                  <a class="photo2" href="#"> <img class="Image3" src="images/hebergements/3_medium/Hotel Le soleil du matin.jpg" alt="Hotel Le soleil du matin"/>
+                    <div class="fond3">
+                      <p class="Titrehotel3">Hôtel Le soleil du Matin</p>
+                      <p class="Soustitre3">Nuit à partir de 128€</p>
+
+                      <div class="etoileX">
+                        <i class="fa-solid fa-star etoile3"></i> 
+                        <i class="fa-solid fa-star etoile3"></i>
+                        <i class="fa-solid fa-star etoile3"></i>
+                        <i class="fa-solid fa-star etoile3"></i>
+                        <i class="fa-solid fa-star etoile3"></i>
+                      </div>
+                    </div></a>
+               
 
                  <!--deuxième photo-->
-                 <div class="photo2"><p><a href="#"><div class="fond3"><p class="Titrehotel3 x">Au coeur de l'eau Chambres d'hôtes</p><p class="Soustitre3">Nuit à partir de 71€</p><div class="etoileY Xétoile"><i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3"></i>
-                  <i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3 G"></i></div></div>
-                <img class="Image3" src="images/hebergements/3_medium/Au coeur de l'eau Chambres d'hotes.jpg" alt="Au coeur de l'eau Chambres d'hotes"/></a></p></div>
+                 
+                   <a class="photo2" href="#"><img class="Image3" src="images/hebergements/3_medium/Au coeur de l'eau Chambres d'hotes.jpg" alt="Au coeur de l'eau Chambres d'hotes"/>
+                     <div class="fond3">
+                       <p class="Titrehotel3 x">Au coeur de l'eau Chambres d'hôtes</p>
+                       <p class="Soustitre3">Nuit à partir de 71€</p>
+
+                       <div class="etoileY Xétoile">
+                         <i class="fa-solid fa-star etoile3"></i>
+                         <i class="fa-solid fa-star etoile3"></i>
+                         <i class="fa-solid fa-star etoile3"></i>
+                         <i class="fa-solid fa-star etoile3"></i>
+                         <i class="fa-solid fa-star etoile3 G"></i>
+                        </div>
+                      </div></a>
+              
 
                  <!--Troisième photo-->
-                 <div class="photo2"><p><a href="#"><div class="fond3"><p class="Titrehotel3">Hôtel tout bleu et Blanc</p><p class="Soustitre3">Nuit à partir de 68€</p><div class="etoileZ"><i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3"></i>
-                  <i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3"></i> <i class="fa-solid fa-star etoile3 G"></i></div></div>
-                <img class="Image3" src="images/hebergements/3_medium/Hotel Tout bleu et Blanc.jpg" alt="Hotel Tout bleu et Blanc"/></a></p></div>
+                 
+                   <a class="photo2" href="#"> <img class="Image3" src="images/hebergements/3_medium/Hotel Tout bleu et Blanc.jpg" alt="Hotel Tout bleu et Blanc"/>
+                     <div class="fond3">
+                       <p class="Titrehotel3">Hôtel tout bleu et Blanc</p>
+                       <p class="Soustitre3">Nuit à partir de 68€</p>
+                    
+                       <div class="etoileZ">
+                         <i class="fa-solid fa-star etoile3"></i>
+                         <i class="fa-solid fa-star etoile3"></i>
+                         <i class="fa-solid fa-star etoile3"></i>
+                         <i class="fa-solid fa-star etoile3"></i>
+                         <i class="fa-solid fa-star etoile3 G"></i>
+                        </div>
+                      </div></a>
 
                  </aside>
 
@@ -205,12 +355,12 @@
 
   <div class="Apropos">
    
-    <h3 class="TitreFooter1">A propos</h3>
+    <h3 class="TitreFooter">A propos</h3>
 
     <ul class="ListeA">
-      <li class="Liste1" > <a href="#">Fonctionnement du site</a></li>
-      <li class="Liste1" > <a href="#">Conditions générales de Vente </a></li>
-      <li class="Liste1"> <a href="#">Données et confidentialité</a></li>
+      <li class="Liste" > <a href="#">Fonctionnement du site</a></li>
+      <li class="Liste" > <a href="#">Conditions générales de Vente </a></li>
+      <li class="Liste"> <a href="#">Données et confidentialité</a></li>
     </ul>
 
   </div>
@@ -222,11 +372,11 @@
 <aside>
   <div class="Noshebergements">
 
-    <h3 class="TitreFooter2">Nos hébergements</h3>
+    <h3 class="TitreFooter">Nos hébergements</h3>
 
     <ul class="ListeA">
-      <li class="Liste2"> <a href="#">Charte de qualité</a></li>
-      <li class="Liste2"> <a href="#">Soumettre votre hôtel </a></li>
+      <li class="Liste"> <a href="#">Charte de qualité</a></li>
+      <li class="Liste"> <a href="#">Soumettre votre hôtel </a></li>
     </ul>
     
   </div>
@@ -238,11 +388,11 @@
 <aside>
   <div class="Assistance">
 
-    <h3 class="TitreFooter3">Assistance</h3>
+    <h3 class="TitreFooter">Assistance</h3>
 
     <ul class="ListeA" >
-      <li class="Liste3" > <a href="#">Centre d'aide</a></li>
-      <li class="Liste3" > <a href="#">Nous contacter </a></li>
+      <li class="Liste" > <a href="#">Centre d'aide</a></li>
+      <li class="Liste" > <a href="#">Nous contacter </a></li>
     </ul>
 
   </div>

@@ -3,13 +3,22 @@
 * {
     font-family:'Raleway', sans-serif ;
     align-items: center;
+    width: auto;
+    
+    
 }
 
 /*Travail sur Le menu de Navigation avec le logo*/
 
 .logo
 {
+    width: 130px;
+    height: 50px;
     padding-left: 50px;
+    position: relative;
+    top:10px;
+    
+    
 }
 
 img {
@@ -99,48 +108,54 @@ h1 + p{
 .search
 {
     display: flex;
-    align-items:baseline;
-    justify-content: baseline;
-    height: 40px;
+   
     border-radius: 20px;
     font-size: 25px;
     padding-left: 25px;
     position: relative;
-    right: 20px;
+    left: 5px;
+    
     
 }
 
 .A {
-    text-align: center;
+    width: 240px;
+    height: 50px;
+    display: flex;
+    text-align: baseline;
     border: 0.8px solid #F2F2F2;
-    color: black;
     font-weight: bold;
     padding:5px;
-    
+       
 }
 
+::placeholder
+{
+    font-size:18px;
+    color: black;
+    opacity: 1;
 
+}
 
 .rep 
 {
     background-color: #0065FC;
     color: white;
     padding: 10px;
-    height: 44px;
+    height: 50px;
     border: none;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     position: relative;
-    right:50px;
-    bottom:3px;
     font-size: 18px;
     font-weight: bold;
     z-index:1;
 }
+
 
 
 
@@ -149,20 +164,20 @@ h1 + p{
     background-color: #F2F2F2;
     border: 2px solid #F2F2F2;
     width: 40px;
-    height: 35px;
+    height: 45px;
     margin:0px;
     padding:0px;
     margin-top: 2px;
     margin-left:2px;
     padding-top:2px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     padding-left:20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     display: flex;
     align-items: center;
     position: relative;
-    left:25px;
+    bottom:1px;
     z-index:1;
     
 }
@@ -275,7 +290,10 @@ h1 + p{
 .blochébergement
 {
     flex:2;
-    height: 750px;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #F2F2F2;
     margin:20px;
     padding: 20px;
@@ -286,14 +304,14 @@ h1 + p{
 .blocpopulaire
 {
     flex:1;
-    height: 750px;
+    height: 730px;
     background-color: #F2F2F2;
     margin:20px;
     padding: 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
 
 }
 
@@ -304,8 +322,9 @@ h1 + p{
 {
     font-size: 22px;
     position: relative;
-    top: 10px;
-    margin-left: 25px;
+    right: 320px;
+    margin-left: 5px;
+    padding-bottom: 22px;
     
 }
 
@@ -314,8 +333,9 @@ h1 + p{
     font-size: 22px;
     position: relative;
     padding-top: 5px;
-    margin-left: 15px;
-    padding-left: 20px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+   
   
 }
 
@@ -329,6 +349,7 @@ h1 + p{
     justify-content: space-between;
     margin-right:30px;
 }
+
 .iconechart
 {
     font-size: 22px;
@@ -341,27 +362,31 @@ h1 + p{
 {
     display: flex;
     align-items: baseline;
-    width: 880px;
-    height: auto;
-    margin:10px;
-    padding: 10px;
+    width: 900px;
+    height: 240px;
+    margin:0px;
+    padding: 0px;
     justify-content: space-between;
     position: relative;
-    bottom: 90px;
+    bottom:0px;
 }
 
 .cologne2
 {
+    
+    width: 900px;
+    height:300px;
+    margin:0px;
+    padding:0px;
+    margin-top:60px;
     display: flex;
     align-items: baseline;
-    width: 880px;
-    height: auto;
-    margin:20px;
-    padding: 10px;
     justify-content: space-between;
-    position: relative;
-    bottom: 120px;
+    
 }
+
+
+/*Travail sur la première cologne*/
 
 .Image1
 {
@@ -372,65 +397,82 @@ h1 + p{
     padding: 0px;
     width: 260px;
     height: 185px;
-    position: relative;
-    top: 80px;
+    
+    
    
 }
 
+.fond1
+{
+    background-color: white;
+    width: 270px;
+    height: 90px;
+    margin:0px;
+    padding:0px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    bottom:30px;
+    z-index: 1;
+    
+}
+
+
 .Titrehotel1
 {
-    position: relative;
-    bottom:10px;
+    
     font-size: 18px;
+    margin:0px;
+    padding:0px;
+    padding-top:10px;
+    padding-left:20px;
     font-weight: bolder;
-    background-color: white;
   
 }
 
 .soustitre1
 {
-    position: relative;
-    bottom: 25px; 
-    font-size:18px;
-    font-weight: lighter;
-    background-color: white;
     
+    font-size:18px;
+    margin:0px;
+    padding:0px;
+    padding-left:20px;
+    font-weight: lighter;
+    position: relative;
+    top:5px;
+      
 }
+
 
 .etoile
 {
+
+    width: 100px;
+    margin:0px;
+    padding:0px;
+    padding-left:20px;
     display: flex;
     align-items: baseline; 
+    position: relative;
+    top: 10px;
 
 }
+
 .etoile1
 {
     color: #0065FC;
     font-size: 15px;
     position: relative;
-    bottom: 40px;
     margin: 0px;
     padding: 0px;
-}
-
-.photo1
-{
-    display: flex;
-        
-}
-.fond1
-{
-    background-color: white;
-    position: absolute;
-    top:270px;
-    width: 260px;
-    height: 90px;
-    padding-left:10px;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius: 20px;
-    z-index: 1;
+    position: relative;
     
 }
+
+
 
 .Image2
 {
@@ -442,9 +484,6 @@ h1 + p{
     width: 260px;
     height: 185px;
     object-fit: cover;
-    position: relative;
-    top: 50px;
-    right:10px;
 
 }
 
@@ -453,33 +492,50 @@ h1 + p{
 {
     position: relative;
     top:10px;
+    left:10px;
     font-size: 18px;
     font-weight: bolder;
-    background-color: white;
+   
 }
 
 .soustitre2
 {
     position: relative;
+    left:10px;
     bottom:5px; 
     font-size: 18px;
     font-weight: lighter;
-    background-color: white;
+
 }
 
 
 .fond2
 {
     background-color: white;
-    position: relative;
-    top:295px;
     width: 260px;
     height: 90px;
     padding-left:10px;
     border-bottom-left-radius:20px;
     border-bottom-right-radius: 20px;
-    right:10px;
+    position: relative;
+    bottom: 60px;
     z-index: 1;
+
+}
+
+
+.etoileb
+{
+
+    width: 100px;
+    margin:0px;
+    padding:0px;
+    padding-left:10px;
+    display: flex;
+    bottom:20px;
+    right: 10px;
+    align-items: baseline; 
+    position: relative;
 
 }
 
@@ -487,11 +543,10 @@ h1 + p{
 {
     color: #0065FC;
     font-size: 15px;
-    position: relative;
-    bottom: 20px;
     margin: 0px;
     padding: 0px;
-    
+    position: relative;
+    left:10px;
 
 }
 
@@ -502,19 +557,7 @@ h1 + p{
 
 .photo2
 {
-    display: flex;
-    width: 420px;
-    height: 160px;
-    padding: 0px;
-    margin: 0px;
-    padding-left: 25px;
-    padding-right: 10px;
-    padding-bottom: 60px;
-    align-items: center;
-    flex-direction: column;
-    display: inline;
-   
-    
+    padding-bottom: 20px;
 }
 
 
@@ -562,7 +605,6 @@ h1 + p{
   font-weight: bolder;
   position: relative;
   right:25px;
-  background-color: white;
     
 }
 
@@ -575,7 +617,7 @@ h1 + p{
   font-weight: bolder;
   position: relative;
   right:0px;
-  background-color: white;
+  
     
 }
 
@@ -591,7 +633,7 @@ h1 + p{
     justify-content: center;
     position:relative;
     bottom: 30px;
-    background-color: white;
+    
 }
 
 .etoileX
@@ -648,27 +690,10 @@ h1 + p{
     font-size: 18px;
     font-weight: bold;
     position: relative;
-    left: 25px;
+    bottom:20px;
+    right: 390px;
 }
 
-
-/*Superflux pour survoler les cartes */
-
-.Titrehotel1:hover 
-{
-    cursor: pointer;
-    transform: scale(1);
-    
-    
-}
-
-.soustitre1:hover 
-{
-    cursor: pointer;
-    transform: scale(1);
-    
-    
-}
 
 
 /*Travail sur la Partie Activités à Marseille*/
@@ -1110,35 +1135,51 @@ h1 + p{
 #Footer
 {
     
-   
-    height: 300px;
+    height: 250px;
     background-color: #F2F2F2;
     display: flex;
+    align-items: center;
     justify-content: space-around;
-
-
+    position: relative;
+    left:5px;
 }
 
 
 /*Travail sur les Titres*/
 
-.TitreFooter1
+.TitreFooter
 {
     font-size: 18px;
     font-weight: bolder;
+    font-size: 20px;
+    
 }
 
-.TitreFooter2
+
+.ListeA
 {
-    font-size: 18px;
-    font-weight: bolder;
+    width: 290px;
+    height: 300px;
+    margin:0px;
+    padding: 0px;
+    display:block;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    
 }
 
-.TitreFooter3
+.Liste
 {
-    font-size: 18px;
-    font-weight: bolder;
+    
+    margin:0px;
+    padding-bottom: 15px;
+    position: relative;
+   
+    
 }
+
+
 
 /*Travail sur les Bloc 1*/
 
@@ -1152,38 +1193,9 @@ h1 + p{
     justify-content: left;
     flex-direction: column;
     position: relative;
+    top:5px;
     right: 30px;
 }
-
-.TitreFooter1
-{
-    font-size: 20px;
-    margin:0px;
-    padding: 0px;
-    font-weight: bolder;
-    justify-content: left;
-    position: relative;
-    left: 10px;
-}
-
-.ListeA
-{
-    height: 300px;
-    display:block;
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: space-between;
-
-}
-
-.Liste1
-{
-    padding-bottom: 5px;
-    position: relative;
-    right:30px;
-}
-
-
 
 
 /*Travail sur le Bloc 2*/
@@ -1197,39 +1209,10 @@ h1 + p{
     justify-content: left;
     flex-direction: column;
     position: relative;
+    top:5px;
     right:50px;
     
 }
-
-.TitreFooter2
-{
-    font-size: 20px;
-    margin:0px;
-    padding: 0px;
-    font-weight: bolder;
-    justify-content: left;
-    position: relative;
-    left: 10px;
-}
-
-.ListeA
-{
-    height: 300px;
-    display:block;
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: space-between;
-   
-}
-
-.Liste2
-{
-    padding-bottom: 5px;
-    position: relative;
-    right:30px;
-}
-
-
 
 
 /*Travail sur le Bloc 3*/
@@ -1243,36 +1226,12 @@ h1 + p{
     justify-content: left;
     flex-direction: column;
     position: relative;
+    top:5px;
     right: 80px;
-   
+    
 }
 
-.TitreFooter3
-{
-    font-size: 20px;
-    margin:0px;
-    padding: 0px;
-    font-weight: bolder;
-    justify-content: left;
-    position: relative;
-    left: 10px;
-}
 
-.ListeA
-{
-    height: 300px;
-    display:block;
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
-.Liste3
-{
-    padding-bottom: 5px;
-    position: relative;
-    right:30px;
-}
 
 
 

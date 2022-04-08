@@ -460,7 +460,7 @@ h1 + p
     position: relative;
 }
 
-
+/*travail sur le deuxième cologne*/
 
 .Image2
 {
@@ -594,12 +594,13 @@ h1 + p
     z-index: 1;
 }
 
-.Titrehotel3
+.titrehotel3
 {
     font-size: 18px;
     width: 150px;
     font-weight: bolder;
 }
+
 
 /*Travail sur le cadre individuelle de chaque *titrehotel3 pour respecter la mise en page textuelle et visuelle de la maquette*/
 
@@ -628,7 +629,7 @@ h1 + p
 /*Fin de la correction*/
 
 
-.Soustitre3
+.soustitre3
 {
     font-size:18px;
     width:200px;
@@ -638,7 +639,7 @@ h1 + p
     bottom: 30px;
 }
 
-.etoileX
+.etoilex
 {
     display: flex;
     align-items: baseline; 
@@ -646,7 +647,7 @@ h1 + p
     bottom:5px;
 }
 
-.etoileY
+.etoiley
 {
     display:flex;
     align-items:baseline; 
@@ -654,7 +655,7 @@ h1 + p
     bottom:5px;
 }
 
-.etoileZ
+.etoilez
 {
     display:flex;
     align-items:baseline; 

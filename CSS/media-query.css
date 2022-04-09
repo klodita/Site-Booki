@@ -29,10 +29,139 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   
 body{
-  padding: 0;
+  padding:0;
   margin:0;
+ 
 }
 
+
+/*travail sur la balise H1 et le paragraphe ci-dessous*/
+
+h1
+{
+    font-size: large;
+    padding-left: 30px;
+}
+
+h1 + p
+{
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.tabpositionh1
+{
+  font-size: 20px;
+  position: relative;
+  top:20px;
+}
+
+.tabpositionp
+{
+  position: relative;
+  top:10px;
+  padding-bottom: 20px;
+}
+
+
+/*Travail sur les Filtres*/
+
+
+.Filtre /*toutes ma colonne de filtres*/
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 30px;
+    margin:0;
+    padding: 0;
+    padding-left: 35px;
+    padding-top: 30px;
+    width:950px;
+    height: 80px;
+}
+
+.F1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+.F2 /*ma bordure de filtre*/
+{
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin:0;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    
+    
+}
+
+.iconefiltres
+{
+    border-radius: 30px;
+    font-size: 25px;
+    width: 45px;
+    height: 40px;
+    margin:0px;
+    padding: 0px;
+    color: #0065FC;
+    background-color:#F2F2F2 ;
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+    padding-top: 10px;
+    
+}
+
+.recadre
+{
+  position:relative;
+  top:5px;
+}
+
+.recadre1
+{
+    font-size:30px;
+    margin: 0;
+    position: relative;
+    left:0px;
+}
+
+.Ftext
+{
+    font-size: 19px;
+    font-weight: bolder;
+    display: flex;
+    padding-right:15px;
+    padding-left:10px;
+    padding-top:15px;
+    
+}
+
+/*travail sur l'info 500 logements*/
+
+.infopositionp
+{
+  font-size: 18px;
+}
+
+
+/*effet de la ligne bleu sur la navigation*/
+
+.pose1
+{
+    position:relative;
+    left: 480px;
+} 
 
   
 /*Travail sur le Main=contenue de la page"*/
@@ -41,14 +170,16 @@ body{
 {
     display: block;
     align-items: center;
+    justify-content: center;
     margin:0;
     padding: 0;
+   
     
 }
 
 .blochébergement
 {
-    width:90%;
+    flex-grow:1;
     height: 730px;
     display: block;
     flex-direction: column;
@@ -61,13 +192,14 @@ body{
 
 .blocpopulaire
 {
-    width:90%;
-    height: 350px;
+  width: auto;
+    height: 370px;
     background-color: #F2F2F2;
     box-sizing:content-box;
     border-radius: 20px;
     display: block;
     flex-direction: row;
+    flex-grow:1;
  
 }
 
@@ -105,28 +237,28 @@ body{
 .photo2
 {
     display:inline-flex;
+    justify-content: space-around;
     flex-grow:1;
     width: 290px;
     height: 240px;
     margin:0px;
-    padding:0px;
-    
+    padding:0px; 
 }
 
 .Image3
 {
     display:block;
     align-items:baseline;
-    justify-content: space-between;
+    justify-content: space-around;
     width:250px ;
     height: 185px;
     object-fit: cover;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 0;
-    border:5px solid white;
-    
-    
+    position:relative;
+    left:20px;
+    border:5px solid white;  
 }
 
 
@@ -143,7 +275,7 @@ body{
     border-top-right-radius:0;
     border-bottom-left-radius: 20px;
     position:absolute;
-    left: 25px;
+    left: 35px;
    
     bottom:-30px;
     z-index: 1;
@@ -162,9 +294,6 @@ body{
     top:10px;
   
 }
-
-
-
 
 
 .soustitre3
@@ -232,6 +361,468 @@ top:10px;
   top:30px;
   
   }
+
+
+/*Travail sur la Partie Activités à Marseille*/
+
+#ActivitéMarseille
+{
+    flex-grow: 1;
+    width:960px;
+    height: 550px;
+    display: flex;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    left:20px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    
+    
+    
+}
+
+
+.Grostitre3
+{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:50px;
+   
+}
+
+
+.conteneur
+{
+    
+    flex-grow:1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+
+/*Travail sur le Bloc1*/
+
+.bloc1
+{
+    display: flex;
+    align-items: baseline;
+    justify-content:space-around;
+    position:relative;
+   
+}
+
+
+
+.TitreActivité1
+{
+    background-color: white;
+    width: 250px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+   
+    z-index: 1;
+    
+}
+
+.Activimage1
+{
+    width: 260px;
+    height: 185px;
+    display: flex;
+  
+
+   
+
+}
+
+
+.Activité1
+{
+    width: 250px;
+    height: 185px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    
+}
+
+
+
+/*division du bloc1*/
+
+.blocimage
+{
+    display: flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content: space-around;
+   
+}
+
+
+
+.TitreActivité2
+{
+    background-color: white;
+    width: 250px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+    z-index: 1; 
+}
+
+.Activimage2
+{
+    width:250px;
+    height:185px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+.Activité2
+{
+    width: 250px;
+    height: 185px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+
+.TitreActivité3
+{
+    background-color: white;
+    width: 250px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    z-index: 1;
+}
+
+.Activimage3
+{
+    width: 250px;
+    height: 185px;
+    display: flex;
+    
+}
+
+.Activité3
+{
+    width: 250px;
+    height: 180px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+
+
+
+/*Travail sur le Bloc2 */
+
+
+.bloc2
+{
+    display: flex;
+    flex-grow: 1;
+    align-items: baseline;
+    justify-content: space-around;
+    
+}
+
+
+.TitreActivité4
+{
+    background-color: white;
+    width: 250px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:0px;
+    right:7px;
+    z-index: 1; 
+}
+
+
+.Activimage4
+{
+    width: 250px;
+    height: 185px;
+    display: flex;
+    
+}
+
+
+.Activité4
+{
+    width: 250px;
+    height: 185px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+   
+}
+
+
+
+/*division du bloc2*/
+
+
+.blocimage2
+{
+    display: flex;
+   flex-direction: row;
+   
+}
+
+
+.TitreActivité5
+{
+    background-color: white;
+    width: 250px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:105px;
+    left:4px;
+    z-index: 1;
+}
+
+
+.Activimage5
+{
+    width: 250px;
+    height: 185px;
+    display: flex;
+   
+   
+
+}
+
+.Activité5
+{
+    width: 250px;
+    height: 185px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+   
+}
+
+
+.TitreActivité6
+{
+    background-color: white;
+    width: 250px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  
+    z-index: 1;
+}
+
+
+.Activimage6
+{
+    width: 250px;
+    height: 185px;
+    display: flex;
+    
+}
+
+
+.Activité6
+{
+    width: 250px;
+    height: 185px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+
+
+
+/*Travail sur le Footer, il y a 3 Bloc*/
+
+.footer
+{
+    width:1000px;
+    height: 250px;
+    background-color: #F2F2F2;
+    flex-grow: 1;
+    display:flex;
+    box-sizing:content-box;
+    position: relative;
+    top:100px;
+    
+      
+}
+
+
+/*Travail sur les Titres*/
+
+.TitreFooter
+{
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+}
+
+
+.ListeA
+{
+    width: 290px;
+    height: 300px;
+    margin:0px;
+    padding: 0px;
+    display:block;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.Liste
+{
+    margin:0px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+
+
+/*Travail sur les Bloc 1*/
+
+
+.Apropos
+{
+    display: flex;
+    width: 338px;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    position: relative;
+    top:5px;
+    left:20px;
+   
+    
+}
+
+
+/*Travail sur le Bloc 2*/
+
+.Noshebergements
+{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    position: relative;
+    position: relative;
+    top:5px;
+    left:20px;
+ 
+    
+}
+
+
+/*Travail sur le Bloc 3*/
+
+.Assistance
+{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    position: relative;
+    top:5px;
+    left:20px;
+   
+    
+}
+
+
+
+
 
 
 

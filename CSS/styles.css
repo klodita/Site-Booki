@@ -7,7 +7,10 @@
     
 }
 
-
+body
+{
+    width: 100%;
+}
 
 /*Travail sur Le menu de Navigation avec le logo*/
 
@@ -188,7 +191,7 @@ h1 + p
 /*Travail sur les Filtres*/
 
 
-.Filtre /*toutes ma colonne de filtres*/
+.filtre /*toutes ma colonne de filtres*/
 {
     display: flex;
     align-items: baseline;
@@ -232,13 +235,19 @@ h1 + p
     
 }
 
+.recadre
+{
+    position: relative;
+    top:4px;
+}
 .recadre1
 {
     font-size:30px;
     margin: 0px;
+   
 }
 
-.Ftext
+.ftext
 {
     font-size: 19px;
     font-weight: bolder;
@@ -248,7 +257,7 @@ h1 + p
     
 }
 
-.Ftext:hover
+.ftext:hover
 {
     color: #0065FC;
     text-transform:uppercase;
@@ -282,13 +291,13 @@ h1 + p
 
 /*Travail sur le Main=contenue de la page"*/
 
-#Hébergementmarseille
+#hebergementmarseille
 {
     display: flex;
     padding-left:20px;
 }
 
-.blochébergement
+.blochebergement
 {
     flex:1;
     height: 730px;
@@ -318,7 +327,7 @@ h1 + p
 /*Travail sur les Titres des deux bloc Hebergement et populaire*/
 
 
-.Grostitre1
+.grostitre1
 {
     font-size: 22px;
     margin-left: 55px;
@@ -327,7 +336,7 @@ h1 + p
     right:30px;
 }
 
-.Grostitre2
+.grostitre2
 {
     font-size: 22px;
     position: relative;
@@ -338,7 +347,7 @@ h1 + p
 
 /*positionnement de l'icone chart sur le bloc les plus populaires*/
 
-.Positionicon
+.positionicon
 
 {
     display:flex;
@@ -387,7 +396,7 @@ h1 + p
 
 /*Travail sur la première cologne*/
 
-.Image1
+.image1
 {
     border: 5px solid white;
     border-top-left-radius: 20px;
@@ -416,7 +425,7 @@ h1 + p
 }
 
 
-.Titrehotel1
+.titrehotel1
 {
     font-size: 18px;
     margin:0px;
@@ -462,7 +471,7 @@ h1 + p
 
 /*travail sur le deuxième cologne*/
 
-.Image2
+.image2
 {
     border: 5px solid white;
     border-top-left-radius: 20px;
@@ -477,7 +486,7 @@ h1 + p
 }
 
 
-.Titrehotel2
+.titrehotel2
 {
     position: relative;
     top:10px;
@@ -531,7 +540,7 @@ h1 + p
     left:10px;
 }
 
-.Plus /*Petit texte Afficher plus*/
+.plus /*Petit texte Afficher plus*/
 {
     font-size: 18px;
     font-weight: bold;
@@ -559,7 +568,7 @@ h1 + p
 }
 
 
-.Image3
+.image3
 {
     border: 5px solid white;
     border-top-left-radius: 20px;
@@ -680,7 +689,7 @@ h1 + p
 
 /*Travail sur la Partie Activités à Marseille*/
 
-#ActivitéMarseille
+#activitemarseille
 {
     width: auto;
     height: 700px;
@@ -691,7 +700,7 @@ h1 + p
 }
 
 
-.Grostitre3
+.grostitre3
 {
     font-size: 15px;
     display: flex;
@@ -725,7 +734,7 @@ h1 + p
 
 
 
-.TitreActivité1
+.titreactivite1
 {
     background-color: white;
     width: 298px;
@@ -749,7 +758,7 @@ h1 + p
 }
 
 
-.Activimage1
+.activimage1
 {
     width: 330px;
     height: 495px;
@@ -762,7 +771,7 @@ h1 + p
 
 }
 
-.Activité1
+.activite1
 {
     width: 320px;
     height: 475px;
@@ -788,7 +797,7 @@ h1 + p
 
 
 
-.TitreActivité2
+.titreactivite2
 {
     background-color: white;
     width: 298px;
@@ -812,7 +821,7 @@ h1 + p
 
 
 
-.Activimage2
+.activimage2
 {
     width: 332px;
     height: 300px;
@@ -822,7 +831,7 @@ h1 + p
     bottom:5px;
 }
 
-.Activité2
+.activite2
 {
     width: 320px;
     height: 225px;
@@ -833,7 +842,7 @@ h1 + p
     bottom: 100px;   
 }
 
-.TitreActivité3
+.titreactivite3
 {
     background-color: white;
     width: 298px;
@@ -855,7 +864,7 @@ h1 + p
     z-index: 1;
 }
 
-.Activimage3
+.activimage3
 {
     width: 330px;
     height: 180px;
@@ -864,7 +873,7 @@ h1 + p
 }
 
 
-.Activité3
+.activite3
 {
     width: 320px;
     height: 180px;
@@ -890,7 +899,7 @@ h1 + p
 }
 
 
-.TitreActivité4
+.titreactivite4
 {
     background-color: white;
     width: 300px;
@@ -913,7 +922,7 @@ h1 + p
 }
 
 
-.Activimage4
+.activimage4
 {
     width: 330px;
     height: 495px;
@@ -926,7 +935,7 @@ h1 + p
 }
 
 
-.Activité4
+.activite4
 {
     width: 320px;
     height: 475px;
@@ -955,7 +964,7 @@ h1 + p
 }
 
 
-.TitreActivité5
+.titreactivite5
 {
     background-color: white;
     width: 298px;
@@ -978,7 +987,7 @@ h1 + p
 }
 
 
-.Activimage5
+.activimage5
 {
     width: 330px;
     height: 180px;
@@ -989,7 +998,7 @@ h1 + p
 
 }
 
-.Activité5
+.activite5
 {
     width: 320px;
     height: 180px;
@@ -1001,7 +1010,7 @@ h1 + p
 }
 
 
-.TitreActivité6
+.titreactivite6
 {
     background-color: white;
     width: 298px;
@@ -1024,7 +1033,7 @@ h1 + p
 }
 
 
-.Activimage6
+.activimage6
 {
     width: 330px;
     height: 300px;
@@ -1033,7 +1042,7 @@ h1 + p
 }
 
 
-.Activité6
+.activite6
 {
     width: 320px;
     height: 225px;
@@ -1064,7 +1073,7 @@ h1 + p
 
 /*Travail sur les Titres*/
 
-.TitreFooter
+.titrefooter
 {
     font-size: 18px;
     font-weight: bolder;
@@ -1072,7 +1081,7 @@ h1 + p
 }
 
 
-.ListeA
+.listeA
 {
     width: 290px;
     height: 300px;
@@ -1085,7 +1094,7 @@ h1 + p
 }
 
 
-.Liste
+.liste
 {
     margin:0px;
     padding-bottom: 15px;
@@ -1097,7 +1106,7 @@ h1 + p
 /*Travail sur les Bloc 1*/
 
 
-.Apropos
+.apropos
 {
     display: flex;
     width: 338px;
@@ -1113,7 +1122,7 @@ h1 + p
 
 /*Travail sur le Bloc 2*/
 
-.Noshebergements
+.noshebergements
 {
     display: flex;
     width: 338px;
@@ -1129,7 +1138,7 @@ h1 + p
 
 /*Travail sur le Bloc 3*/
 
-.Assistance
+.assistance
 {
     display: flex;
     width: 380px;

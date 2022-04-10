@@ -1,12 +1,7 @@
 
 
-@media (min-width:600px) and (max-width:1440px){
+@media (min-width:768px) and (max-width:1024px){
 
-
-  body 
-  {
-      width: fit-content;
-  }
 
 /*travail sur la balise H1 et le paragraphe ci-dessous*/
 

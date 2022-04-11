@@ -151,7 +151,6 @@
            display: block;
            align-items: center;
            justify-content: center;
-         
            width: 930px;
           
            
@@ -1605,7 +1604,7 @@ h1 + p
 .blochebergement
 {
     flex-grow:1;
-    width:890px;
+    width:1190px;
     height: 730px;
     display: block;
     flex-direction: column;

@@ -3,8 +3,8 @@
 * {
     font-family:'Raleway', sans-serif ;
     align-items: center;
-    width: max-content;
-    
+    width:max-content;
+    min-width:none;
 }
 
 /*Travail sur Le menu de Navigation avec le logo*/

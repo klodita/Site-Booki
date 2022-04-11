@@ -1046,7 +1046,7 @@ h1 + p
 .footer
 {
     width:1583px;
-    height: 250px;
+    height:250px;
     background-color: #F2F2F2;
     display: flex;
     align-items:center;

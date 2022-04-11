@@ -360,36 +360,19 @@
     .titrehotel3
     {
         font-size: 15px;
-        width: 220px;
-        margin:0px;
-        padding:0px;
-        font-weight: bolder;
         position: relative;
         left:20px;
         top:10px;
-      
     }
-    
     
     .soustitre3
     {
-        font-size:16px;
-        margin:0px;
-        padding:0px;
+        font-size:15px;
         padding-left:20px;
         font-weight: lighter;
         position: relative;
         top:20px;
     }
-    
-    .taby
-    {
-      position:relative;
-      top:8px;
-    }
-    
-    
-    
     
     .etoilex
     {
@@ -649,20 +632,18 @@
     
     /*Travail sur le Footer, il y a 3 Bloc*/
     
-    .footer
+   
+ 
+    
+    .foot2
     {
-        width: 890px;
+        width:1200px;
         box-sizing: border-box;
-        height: 210px;
+        height: 510px;
         border-radius: 20px;
-        margin:0;
-        padding:0;
-        padding-top: 10px;
-        align-items: baseline;
-        justify-content: center;
-        position: relative;
-        top:100px; 
-        left:30px;
+        
+       
+        
      
     }
     
@@ -673,6 +654,7 @@
     {
         font-size: 18px;
         flex-direction: row;
+        border:2px solid red;
     }
     
     
@@ -693,8 +675,8 @@
     
     .noshebergements
     {
-        width: 200px;
-        height: 200px;
+        width:200px;
+        height:200px;
         position: relative;
         top:5px;
         right:30px;
@@ -706,8 +688,8 @@
     
     .assistance
     {
-        width: 200px;
-        height: 200px;
+        width:200px;
+        height:200px;
         position: relative;
         top:5px;
         left:45px;
@@ -736,130 +718,22 @@
 
 
 
-@media (max-width:1280px) { /*Taille écran tablette (1280X802)*/
+@media (max-width:1280px) { /*Taille écran tablette (1280X802) Correspond à Nexus 10 Paysage*/
 
     body 
     {
-        background-color:blue;
+        background-color:cyan;
     }
    
-       /*travail sur la balise H1 et le paragraphe ci-dessous*/
-       
-       h1
-       {
-           font-size: large;
-           padding-left: 30px;
-       }
-       
-       h1 + p
-       {
-           font-size: 18px;
-           position: relative;
-           bottom: 10px;
-           margin-bottom: 20px;
-           padding-left: 30px;
-       }
-       
-       .tabpositionh1
-       {
-         font-size: 20px;
-         position: relative;
-         top:20px;
-       }
-       
-       .tabpositionp
-       {
-         position: relative;
-         top:10px;
-         padding-bottom: 20px;
-       }
-       
        
        /*Travail sur les Filtres*/
        
-       
-       .filtre /*toutes ma colonne de filtres*/
-       {
-           display: flex;
-           align-items: baseline;
-           justify-content: center;
-           justify-content: space-between;
-           font-size: 10px;
-           margin:0;
-           padding: 0;
-           padding-left: 35px;
-           padding-top: 30px;
-           width:850px;
-           height: 70px;
-       }
-       
-       .F1{
-           font-weight: bold;
-           font-size: 18px;
-           margin-right: 10px;
-       }
-       
-       
+
        .F2 /*ma bordure de filtre*/
        {
-           border: 2px solid #F2F2F2;
-           height: 50px;
-           border-radius: 30px;
-           margin:0;
-           display: flex;
-           align-items:flex-start;
-           justify-content: space-between; 
+           margin-right:50px;
        }
-       
-       
-       .iconefiltres
-       {
-           border-radius: 30px;
-           font-size: 25px;
-           width: 45px;
-           height: 40px;
-           margin:0px;
-           padding: 0px;
-           color: #0065FC;
-           background-color:#F2F2F2 ;
-           display: flex;
-           align-items: center;
-           padding-left: 17px;
-           padding-top: 10px;
-           
-       }
-       
-       .recadre
-       {
-         position:relative;
-         top:5px;
-       }
-       
-       .recadre1
-       {
-           font-size:30px;
-           margin: 0;
-           position: relative;
-           left:0px;
-       }
-       
-       .ftext
-       {
-           font-size: 17px;
-           font-weight: bolder;
-           display: flex;
-           padding-right:10px;
-           padding-left:10px;
-           padding-top:15px;
-           
-       }
-       
-       .ftext:hover
-       {
-           color: #0065FC;
-           text-transform:none;
-       }
-       
+     
        /*travail sur l'info 500 logements*/
        
        .infopositionp
@@ -873,7 +747,7 @@
        .pose1
        {
            position:relative;
-           left: 420px;
+           left:780px;
        } 
        
          
@@ -881,11 +755,8 @@
        
        #hebergementmarseille
        {
-           display: block;
-           align-items: center;
-           justify-content: center;
-         
-           width: 930px;
+           width: 1210px;
+           border:2px solid green;
           
            
        }
@@ -893,7 +764,7 @@
        .blochebergement
        {
            flex-grow:1;
-           width:890px;
+           width:1200px;
            height: 730px;
            display: block;
            flex-direction: column;
@@ -909,7 +780,7 @@
        
        .blocpopulaire
        {
-           width:890px;
+           width:1200px;
            height:400px;
            margin:0;
            padding:0;
@@ -929,8 +800,8 @@
            display: flex;
            align-items: center;
            position:relative;
-           left:220px;
-           top:20px;
+           left:380px;
+           top:25px;
        }
        
        
@@ -942,71 +813,96 @@
            
        }
        
+       /*Travail sur la taille des images*/
+
+       .cologne1
+       
+       {
+        position: relative;
+        left:100px;  
+       }
+       
+       .cologne2
+       {
+           position:relative;
+           left:100px;
+       }
+
+       .image1 
+       {
+           width:340px; 
+       }
+       
+       .fond1
+       {
+           width:350px;
+       }
+
+       .image2 
+       {
+           width: 340px;
+       }
+
+       .fond2 
+       {
+           width:340px;
+       }
+     
        /*travail sur les colognes 1 et 2, partie hébergement à Marseille */
        
        .titrehotel1
        {
-           font-size: 15px;
+           font-size:18px;
        }
        
        .soustitre1
        {
-           font-size: 15px;
+           font-size:18px;
        }
        
        .titrehotel2
        {
-           font-size: 15px;
+           font-size:18px;
            padding-bottom: 5px;
        }
        
        .soustitre2
        {
-           font-size: 15px;
+           font-size:18px;
            padding-bottom: 5px;
-       }
-       .cologne1
-       
-       {
-       position: relative;
-       top:5px;
-           
        }
        
        
        .positionimg2, .fondpose2
        {
            position:relative;
-           right: 15px;
+           left:40px;
        }
        
        .positionimg3, .fondpose3
        {
            position: relative;
-           right:30px;
+           left:80px;
        }
-       
-       .cologne2
-       {
-           position:relative;
-           top:5px;
-       }
+      
+     
        .posimg4, .fondpose4
        {
            position:relative;
-           left: -15px;
+           left:40px;
        }
        
        .posimg5, .fondpose5
        {
            position:relative;
-           left:-30px;
+           left:80px;
        }
        
        .plus
        {
            position:relative;
-           top:20px;
+           top:40px;
+           left:38px;
        }
        
        /*positionnement de l'icone chart sur le bloc les plus populaires*/
@@ -1020,7 +916,7 @@
            padding-top: 10px;
            padding-bottom: 20px;
            position: relative;
-           left:250px;
+           left:400px;
        }
        
        .iconechart
@@ -1032,60 +928,40 @@
        
        /*Travail sur la partie les plus populaires*/
        
-       .photo2
+       .photo2 
        {
-           display:inline-flex;
-           justify-content: space-around;
-           flex-grow:1;
-           width: 290px;
-           height: 240px;
-           margin:0px;
-           padding:0px; 
-           position: relative;
-           right: 15px;
+           width:340px;
+           height:240px;
        }
-       
-       
-       
+
        .tab1
        {
-           display:block;
-           align-items:baseline;
-           justify-content: space-around;
-           width:250px ;
-           height: 185px;
+           display:inline-flex;
+           flex-grow:1;
            border-top-right-radius: 20px;
            border-top-left-radius: 20px;
            border-bottom-left-radius: 0;
            position:relative;
-           left:20px;
-           border:5px solid white;  
+           left:60px; 
        }
        
-       
-       
-       .fond3
+       .tablette
        {
-           background-color:white;
-           width:260px;
-           height:100px;
-           flex-grow:1;
-           margin:0px;
-           padding:0px;
-           display: flex;
-           border:none;
-           border-top-right-radius:0;
-           border-bottom-left-radius: 20px;
-           position:absolute;
-           left:35px;
-           bottom:-30px;
-           z-index: 1;
+           padding-right:40px;
+       }
+       
+       .fontab2
+       {
+           width: 340px;
+           height: 100px;
+           position: absolute;
+           left:60px;
        }
        
        
        .titrehotel3
        {
-           font-size: 15px;
+           font-size: 16px;
            width: 220px;
            margin:0px;
            padding:0px;
@@ -1093,7 +969,6 @@
            position: relative;
            left:20px;
            top:10px;
-         
        }
        
        
@@ -1113,9 +988,6 @@
          position:relative;
          top:8px;
        }
-       
-       
-       
        
        .etoilex
        {
@@ -1144,7 +1016,7 @@
        #activitemarseille
        {
            flex-grow: 1;
-           width:890px;
+           width:1200px;
            height: 620px;
            box-sizing: border-box;
            margin:0;
@@ -1177,13 +1049,14 @@
        {
            align-items: baseline;
            position:relative;
-           left:80px;
+           left:140px;
+           
        }
        
        .bloc2
        {   
            position:relative;
-           left:95px;
+           left:155px;
            bottom:10px;
        }
        
@@ -1191,36 +1064,36 @@
        {
            flex-direction:row;
            position: relative;
-           left:-25px;
+           left:60px;
        }
        
        .blocimage2
        { 
           flex-direction: row;
           position:relative;
-          left:-25px;
+          left:60px;
        }
        
        .titreactivite1
        {
-           width: 236px;
+           width:325px;
            font-size: 16px;
            position: relative;
            top:140px;
-           left:0px;
-           border-color:white; 
+          
        }
        
        .activimage1
        {
            width: 260px;
-           height: 185px;    
+           height: 185px;   
+           padding-right: 15px; 
        }
        
        
        .activite1
        {
-           width: 250px;
+           width: 340px;
            height: 185px; 
        }
        
@@ -1229,53 +1102,43 @@
        
        .titreactivite2
        {
-           width: 236px;
+           width: 325px;
            font-size: 16px;
            position: relative;
            top:140px;
-           left:0px;
-           border-color:white; 
+           
        }
        
        .activimage2
-       {
-           width:260px;
-           height:185px; 
-           padding-right:30px;
-          
+       { 
+           padding-right:120px;
+           position:relative;
+           right:5px ; 
        }
        
        
        .activite2
        {
-           width: 250px;
+           width: 340px;
            height: 185px; 
        }
        
        .titreactivite3
        {
-           width: 236px;
+           width: 325px;
            font-size: 16px;
            position: relative;
            top:135px;
-           left:0px;
-           border-color:white; 
-       }
-       
-       .activimage3
-       {
-           width: 250px;
-           height: 185px;  
+           left:0px;  
        }
        
        .activite3
        {
-           width: 250px;
+           width: 340px;
            height: 180px;
            position: relative;
            bottom:105px;
        }
-       
        
        
        /*Travail sur le Bloc2 */
@@ -1283,81 +1146,63 @@
        
        .titreactivite4
        {
-          
-           width: 236px;
+           width:325px;
            font-size: 16px;
            position: relative;
            top:145px;
-           left:-10px;
-           border-color:white; 
        }
        
        
        .activimage4
        {
-           width: 250px;
-           height: 185px;
-           
-           
+           padding-right:15px;
        }
        
        
        .activite4
        {
-           width: 250px;
+           width: 340px;
            height: 185px;
        }
        
-       
-       
        /*division du bloc2*/
-       
-       
-       
        
        .titreactivite5
        {
-           
-           width: 236px;
-           font-size: 16px;
+           width:325px;
+           font-size:16px;
            position: relative;
            top:140px;
-           left:0px;
-           border-color:white; 
+           left:-5px;
        }
        
        
        .activimage5
        {
-           width: 250px;
-           height: 185px;
-           
+           padding-right:90px;
        }
        
        .activite5
        {
-           width: 250px;
+           width: 340px;
            height: 185px;
-          
+           position:relative;
+           right:5px ;
        }
        
        
        .titreactivite6
        {
-           
-           width: 236px;
+           width:325px;
            font-size: 16px;
            position: relative;
            top:195px;
            left:0px;
-           border-color:white; 
        }
        
        
        .activimage6
        {
-           width: 250px;
-           height: 185px;
            position:relative;
            left: 35px;
            bottom:60px;
@@ -1366,9 +1211,8 @@
        
        .activite6
        {
-           width: 250px;
-           height: 185px;
-           
+           width:340px;
+           height:185px;
        }
        
        

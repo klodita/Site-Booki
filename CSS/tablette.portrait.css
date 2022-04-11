@@ -13,13 +13,14 @@
 
 
 
-@media (max-width:800px) { /*Taille ecran ordinateur de bureau (800X1280)*/
+@media (max-width:800px) { /*Taille ecran ordinateur de bureau (800X1280) Correspon à Nexus 10 Portrait*/
 
 
 
     body 
     {
         background-color:darkgreen;
+        width:100%;
         
         
     }

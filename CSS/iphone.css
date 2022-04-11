@@ -5,12 +5,12 @@
 
 
 
-
+ 
 
 /**************************************************************TAILLE ECRAN DE PORTABLE LARGEUR MAXIMUM 480PX *************************/
 
 
-@media (max-width:480px) { /*Taille écran portable (320X480)*/
+@media (min-width:320px) and (max-width:480px) { /*Taille écran portable (320X480)*/
 
     body 
     {

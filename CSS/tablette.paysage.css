@@ -6,7 +6,7 @@
 
 
 
-@media only screen and (min-width:969px) and (max-width:1440px) { /*Taille ecran ordinateur de bureau (1440x960)*/
+@media only screen and (min-width:960px) and (max-width:1440px) and (orientation:landscape) { /*Taille ecran ordinateur de bureau (1440x960)*/
 
 
 
@@ -719,7 +719,7 @@
 
 
 
-@media (min-width:962px) and (max-width:1280px) { /*Taille écran tablette (1280X802) Correspond à Nexus 10 Paysage*/
+@media (min-width:961px) and (max-width:1280px) and (orientation:landscape) { /*Taille écran tablette (1280X802) Correspond à Nexus 10 Paysage*/
 
     body 
     {
@@ -1301,7 +1301,7 @@
 
 
 
-@media only screen and (min-width:768px) and (max-width:960px)  { /*Taille écran Tablette (768X1024)*/
+@media only screen and (min-width:768px) and (max-width:960px) and (orientation:landscape) { /*Taille écran Tablette (768X1024)*/
 
 body 
 {

@@ -6,7 +6,7 @@
 
 
 
-@media (max-width:1440px) { /*Taille ecran ordinateur de bureau (1440x960)*/
+@media only screen and (min-width:969px) and (max-width:1440px) { /*Taille ecran ordinateur de bureau (1440x960)*/
 
 
 
@@ -631,22 +631,23 @@
     
     
     /*Travail sur le Footer, il y a 3 Bloc*/
-    
-   
+
+    .footer
+{
+    width: 890px;
+    box-sizing: border-box;
+    height: 210px;
+    border-radius: 20px;
+    margin:0;
+    padding:0;
+    padding-top: 10px;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    top:100px; 
+    left:30px;
  
-    
-    .foot2
-    {
-        width:1200px;
-        box-sizing: border-box;
-        height: 510px;
-        border-radius: 20px;
-        
-       
-        
-     
-    }
-    
+}
     
     /*Travail sur les Titres*/
     
@@ -654,7 +655,7 @@
     {
         font-size: 18px;
         flex-direction: row;
-        border:2px solid red;
+        
     }
     
     
@@ -718,11 +719,11 @@
 
 
 
-@media (max-width:1280px) { /*Taille écran tablette (1280X802) Correspond à Nexus 10 Paysage*/
+@media (min-width:962px) and (max-width:1280px) { /*Taille écran tablette (1280X802) Correspond à Nexus 10 Paysage*/
 
     body 
     {
-        background-color:cyan;
+        background-color:blue;
     }
    
        
@@ -755,10 +756,7 @@
        
        #hebergementmarseille
        {
-           width: 1210px;
-           border:2px solid green;
-          
-           
+           width: 1210px; 
        }
        
        .blochebergement
@@ -1221,7 +1219,7 @@
        
        .footer
        {
-           width: 890px;
+           width: 1200px;
            box-sizing: border-box;
            height: 210px;
            border-radius: 20px;
@@ -1243,6 +1241,7 @@
        {
            font-size: 18px;
            flex-direction: row;
+          
        }
        
        
@@ -1251,10 +1250,10 @@
        
        .apropos
        {
-           width:290px;
+           width:325px;
            position: relative;
            top:5px;
-           right:60px; 
+           right:45px; 
           
        }
        
@@ -1263,11 +1262,11 @@
        
        .noshebergements
        {
-           width: 200px;
+           width: 325px;
            height: 200px;
            position: relative;
            top:5px;
-           right:30px;
+           right:15px;
           
        }
        
@@ -1276,7 +1275,7 @@
        
        .assistance
        {
-           width: 200px;
+           width:350px;
            height: 200px;
            position: relative;
            top:5px;
@@ -1302,7 +1301,7 @@
 
 
 
-@media (max-width:1024px)  { /*Taille écran Tablette (768X1024)*/
+@media only screen and (min-width:768px) and (max-width:960px)  { /*Taille écran Tablette (768X1024)*/
 
 body 
 {

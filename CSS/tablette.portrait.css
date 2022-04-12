@@ -13,7 +13,7 @@
 
 
 
-@media (max-width:800px) { /*Taille ecran ordinateur de bureau (800X1280) Correspon à Nexus 10 Portrait*/
+@media only screen and (max-width:800px) { /*Taille ecran ordinateur de bureau (800X1280) Correspon à Nexus 10 Portrait*/
 
 
 
@@ -641,7 +641,7 @@
         width: 250px;
         height: 185px;
         position:relative;
-        left: 35px;
+        left:35px;
         bottom:60px;
     }
     
@@ -741,7 +741,7 @@
 
 
 
-@media (max-width:768px) { /*Taille ecran tablette (768x1024) orientation portrait*/
+@media only screen and (max-width:768px) { /*Taille ecran tablette (768x1024) orientation portrait*/
 
 
 

@@ -164,7 +164,7 @@ h1 + p
     background-color: #F2F2F2;
     border: 2px solid #F2F2F2;
     width: 40px;
-    height: 45px;
+    height: 44px;
     margin:0px;
     padding:0px;
     margin-top: 2px;
@@ -177,7 +177,7 @@ h1 + p
     display: flex;
     align-items: center;
     position: relative;
-    bottom:1px;
+    bottom:2px;
     z-index:1;
 }
 

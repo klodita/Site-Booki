@@ -125,6 +125,8 @@ h1 + p
     text-transform:none;
 }
 
+
+
 /*travail sur l'info 500 logements*/
 
 .infopositionp
@@ -1444,7 +1446,7 @@ top:5px;
 
 
 
-@media (min-width:800px) and (max-width:991px)  { /*Taille écran Tablette (768X1024)*/
+@media (min-width:801px) and (max-width:991px)  { /*Taille écran Tablette (768X1024)*/
 
 body 
 {
@@ -2158,7 +2160,7 @@ top:5px;
 /*********************************************************************************************************************************************/
 
 
-@media (min-width:768px) and (max-width:799px)
+@media (min-width:768px) and (max-width:800px)
 
 
 {
@@ -2223,6 +2225,8 @@ h1 + p
     font-weight: bold;
     font-size: 18px;
     margin-right: 10px;
+    position: relative;
+    top:35px;
 }
 
 
@@ -2286,8 +2290,25 @@ h1 + p
     text-transform:none;
 }
 
+
+
+.ftext3
+{
+    display:flex;
+    position: relative;
+    right:540px;
+    top:70px;
+    
+
+}
+
 /*travail sur l'info 500 logements*/
 
+.info 
+{
+    position:relative;
+    top:60px;
+}
 .infopositionp
 {
   font-size: 18px;
@@ -2299,7 +2320,7 @@ h1 + p
 .pose1
 {
     position:relative;
-    left: 420px;
+    left:250px;
 } 
 
   
@@ -2312,9 +2333,10 @@ h1 + p
     justify-content: center;
     padding:0;
     margin:0;
-    width:910px;
     position: relative;
     left: 20px;
+    top:50px;
+   
     
    
     
@@ -2323,8 +2345,8 @@ h1 + p
 .blochebergement
 {
     flex-grow:1;
-    width:890px;
-    height: 730px;
+    width:77%;
+    height: 1030px;
     display: block;
     flex-direction: column;
     align-items:baseline;
@@ -2339,7 +2361,7 @@ h1 + p
 
 .blocpopulaire
 {
-    width:890px;
+    width:77%;
     height:400px;
     margin:0;
     padding:0;
@@ -2374,69 +2396,142 @@ h1 + p
 
 /*travail sur les colognes 1 et 2, partie hébergement à Marseille */
 
-.titrehotel1
+.image1, .image2
+{
+    width:295px;
+    height:165px;
+    object-fit: cover;
+}
+
+
+.fond1, .fond2 
+{
+    width:210px;
+}
+
+.titrehotel1, .soutitre1
 {
     font-size: 15px;
 }
 
-.soustitre1
-{
-    font-size: 15px;
-}
 
-.titrehotel2
+.titrehotel2, .soustitre2
 {
     font-size: 15px;
     padding-bottom: 5px;
 }
 
-.soustitre2
-{
-    font-size: 15px;
-    padding-bottom: 5px;
-}
+
 .cologne1
 
 {
 position: relative;
-top:5px;
+top:25px;
     
+}
+
+
+.positionimg1, .fondpose1
+{
+    position:relative;
+    left:35px;
 }
 
 
 .positionimg2, .fondpose2
 {
     position:relative;
-    right: 15px;
+    left:65px;
 }
 
-.positionimg3, .fondpose3
+
+.positionimg3
 {
     position: relative;
-    right:30px;
+    right:580px;
+    top:270px;
+
+}
+
+.fondpose3
+{
+    position: relative;
+    top:250px;
+    right:580px;
+    
 }
 
 .cologne2
 {
     position:relative;
     top:5px;
-}
-.posimg4, .fondpose4
-{
-    position:relative;
-    left: -15px;
+
 }
 
-.posimg5, .fondpose5
+.posimge3
+{
+    position: relative;
+    left:365px;
+    bottom:10px;
+}
+
+.fondpos3
+{
+    width:295px;
+    position: relative;
+    bottom:45px;
+    left:365px;
+}
+
+.fondpose1, .fondpose2, .fondpose3
+{
+    width:305px;
+}
+
+
+.posimg4
 {
     position:relative;
-    left:-30px;
+    top:270px;
+    left:-280px;
+    
+    
 }
+
+
+.fondpose4
+{
+    width:295px;
+    position:relative;
+    top:250px;
+    right:280px;
+   
+}
+
+.posimg5
+{
+    position:relative;
+    left:-250px;
+    top:275px;
+}
+
+
+.fondpose5
+{
+    width: 295px;
+    position:relative;
+    right:250px;
+    top:250px;
+}
+
+
+
 
 .plus
 {
     position:relative;
-    top:20px;
+    top:340px;
+  
 }
 
 /*positionnement de l'icone chart sur le bloc les plus populaires*/
@@ -2464,15 +2559,12 @@ top:5px;
 
 .photo2
 {
-    display:inline-flex;
-    justify-content: space-around;
+    display:flex;
+    flex-direction: row;
     flex-grow:1;
-    width: 290px;
-    height: 240px;
     margin:0px;
     padding:0px; 
-    position: relative;
-    right: 15px;
+   
 }
 
 
@@ -2482,8 +2574,8 @@ top:5px;
     display:block;
     align-items:baseline;
     justify-content: space-around;
-    width:250px ;
-    height: 185px;
+    width:40% ;
+    height:auto;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 0;
@@ -2497,7 +2589,7 @@ top:5px;
 .fond3
 {
     background-color:white;
-    width: 260px;
+    width: 40%;
     height: 100px;
     flex-grow:1;
     margin:0px;

@@ -1446,7 +1446,7 @@ top:5px;
 
 
 
-@media (min-width:801px) and (max-width:991px)  { /*Taille écran Tablette (768X1024)*/
+@media (min-width:945px) and (max-width:991px)  { /*Taille écran Tablette (768X1024)*/
 
 body 
 {
@@ -2165,10 +2165,13 @@ top:5px;
 
 {
 
+   
 body 
 {
     background-color: green;
- 
+    overflow-x: hidden;
+    justify-content: center;
+    padding-left:10px;
 }
 
 /*travail sur la balise H1 et le paragraphe ci-dessous*/
@@ -2177,6 +2180,7 @@ h1
 {
     font-size: large;
     padding-left: 30px;
+    
 }
 
 h1 + p
@@ -2208,17 +2212,17 @@ h1 + p
 
 .filtre /*toutes ma colonne de filtres*/
 {
+    
     display: flex;
     align-items: baseline;
     justify-content: center;
-    justify-content: space-between;
     font-size: 10px;
-    margin:0;
-    padding: 0;
-    padding-left: 35px;
-    padding-top: 30px;
-    width:850px;
+    margin:0px;
+    padding:0;
+    padding-top:20px;
     height: 70px;
+    position:relative;
+    left:30px;
 }
 
 .F1{
@@ -2233,12 +2237,11 @@ h1 + p
 .F2 /*ma bordure de filtre*/
 {
     border: 2px solid #F2F2F2;
-    height: 50px;
     border-radius: 30px;
     margin:0;
     display: flex;
     align-items:flex-start;
-    justify-content: space-between; 
+    justify-content: space-around; 
 }
 
 
@@ -2263,6 +2266,7 @@ h1 + p
 {
   position:relative;
   top:5px;
+
 }
 
 .recadre1
@@ -2290,13 +2294,24 @@ h1 + p
     text-transform:none;
 }
 
-
+.ftext2
+{
+    position:relative;
+    left:15px;
+}
 
 .ftext3
 {
+    position: relative;
+    left:30px;
+}
+
+
+.ftext4
+{
     display:flex;
     position: relative;
-    right:540px;
+    right:495px;
     top:70px;
     
 
@@ -2306,6 +2321,8 @@ h1 + p
 
 .info 
 {
+    padding-top: 10px;
+    padding-bottom: 20px;
     position:relative;
     top:60px;
 }
@@ -2319,8 +2336,9 @@ h1 + p
 
 .pose1
 {
+    width:150px ;
     position:relative;
-    left:250px;
+    left:280px;
 } 
 
   
@@ -2329,23 +2347,20 @@ h1 + p
 #hebergementmarseille
 {
     display: block;
-    align-items: center;
-    justify-content: center;
+    width:700px;
+    box-sizing: content-box;
     padding:0;
     margin:0;
+    padding-right:-30px;
     position: relative;
-    left: 20px;
+    left:20px;
     top:50px;
-   
-    
-   
-    
 }
 
 .blochebergement
 {
     flex-grow:1;
-    width:77%;
+    width:700px;
     height: 1030px;
     display: block;
     flex-direction: column;
@@ -2355,34 +2370,32 @@ h1 + p
     padding: 0px;
     margin-bottom: 40px;
     border-radius: 20px;
-    Position:relative;
-    left:10px;
 }
 
 .blocpopulaire
 {
-    width:77%;
+    width:700px;
     height:400px;
     margin:0;
     padding:0;
     background-color: #F2F2F2;
     box-sizing:content-box;
     border-radius: 20px;
-    display: block;
-    flex-direction: row;
-    Position:relative;
-    left:10px;
-    flex-grow:1; 
+
+    
 }
 
 .grostitre1
 {
     font-size: 28px;
     display: flex;
+    padding-top:20px ;
+    padding-bottom:50px;
     align-items: center;
     position:relative;
-    left:220px;
+    left:120px;
     top:20px;
+   
 }
 
 
@@ -2390,11 +2403,25 @@ h1 + p
 {
     font-size: 28px;
     display: flex;
-    margin:0;
+    padding-top:15px;
+    padding-bottom:5px;
+    position: relative;
+    left:160px;
+    
+}
+
+
+.iconechart
+{
+    font-size: 22px;
+    padding-left:0px;
+    position: relative;
+    left:180px;
     
 }
 
 /*travail sur les colognes 1 et 2, partie hébergement à Marseille */
+
 
 .image1, .image2
 {
@@ -2422,26 +2449,28 @@ h1 + p
 }
 
 
-.cologne1
-
-{
-position: relative;
-top:25px;
-    
-}
 
 
 .positionimg1, .fondpose1
 {
     position:relative;
-    left:35px;
+    left:30px;
 }
 
+.fondpose1
+{
+    width: 305px;
+}
 
 .positionimg2, .fondpose2
 {
     position:relative;
-    left:65px;
+    left:55px;
+}
+
+.fondpose2
+{
+    width: 305px;
 }
 
 
@@ -2450,52 +2479,42 @@ top:25px;
     position: relative;
     right:580px;
     top:270px;
+  
 
 }
 
 .fondpose3
 {
+    width: 305px;
     position: relative;
     top:250px;
     right:580px;
     
 }
 
-.cologne2
-{
-    position:relative;
-    top:5px;
-
-}
 
 .posimge3
 {
     position: relative;
-    left:365px;
-    bottom:10px;
+    left:360px;
+    bottom:35px;
 }
 
 .fondpos3
 {
     width:295px;
     position: relative;
-    bottom:45px;
-    left:365px;
+    bottom:69px;
+    left:360px;
 }
 
-.fondpose1, .fondpose2, .fondpose3
-{
-    width:305px;
-}
 
 
 .posimg4
 {
     position:relative;
-    top:270px;
-    left:-280px;
-    
-    
+    top:250px;
+    left:-275px;
 }
 
 
@@ -2503,8 +2522,8 @@ top:25px;
 {
     width:295px;
     position:relative;
-    top:250px;
-    right:280px;
+    top:230px;
+    right:275px;
    
 }
 
@@ -2512,102 +2531,90 @@ top:25px;
 {
     position:relative;
     left:-250px;
-    top:275px;
+    top:250px;
 }
 
 
 .fondpose5
 {
-    width: 295px;
+    width:295px;
+    height:95px;
     position:relative;
     right:250px;
-    top:250px;
+    top:225px;
 }
-
-
 
 
 .plus
 {
     position:relative;
-    top:340px;
-  
+    top:290px;
+    right:15px;
+    left:42px;
 }
 
 /*positionnement de l'icone chart sur le bloc les plus populaires*/
 
-.positionicon
-
-{
-    display:flex;
-    align-items: baseline;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    position: relative;
-    left:250px;
-}
-
-.iconechart
-{
-    font-size: 22px;
-    padding-left:50px;
-}
-
 
 /*Travail sur la partie les plus populaires*/
-
-.photo2
-{
-    display:flex;
-    flex-direction: row;
-    flex-grow:1;
-    margin:0px;
-    padding:0px; 
-   
-}
 
 
 
 .tab1
 {
-    display:block;
     align-items:baseline;
-    justify-content: space-around;
-    width:40% ;
-    height:auto;
+    width:200px;
+    height:140px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 0;
-    position:relative;
-    left:20px;
-    border:5px solid white;  
+    position: relative;
+    left: 125px; 
 }
-
-
 
 .fond3
 {
     background-color:white;
-    width: 40%;
+    width:210px;
     height: 100px;
-    flex-grow:1;
     margin:0px;
     padding:0px;
     display: flex;
     border:none;
     border-top-right-radius:0;
     border-bottom-left-radius: 20px;
-    position:absolute;
-    left:35px;
-    bottom:-30px;
+    position: relative;
+    left:-85px;
+    top:0px;
     z-index: 1;
 }
+
+.tablette1
+{
+    position:relative;
+    right:130px;
+    top:15px;
+}
+
+.tablette2
+{
+    position:relative;
+    left:95px;
+    bottom:215px;
+}
+
+.tablette3
+{
+    position:relative;
+    left:320px;
+    bottom:445px;
+}
+
 
 
 .titrehotel3
 {
-    font-size: 15px;
+    font-size: 14px;
     width: 220px;
     margin:0px;
     padding:0px;
@@ -2615,7 +2622,6 @@ top:25px;
     position: relative;
     left:20px;
     top:10px;
-  
 }
 
 
@@ -2635,7 +2641,6 @@ top:25px;
   position:relative;
   top:8px;
 }
-
 
 
 
@@ -2666,13 +2671,14 @@ top:25px;
 #activitemarseille
 {
     flex-grow: 1;
-    width:890px;
-    height: 620px;
+    width:700px;
+    height: 920px;
     box-sizing: border-box;
     margin:0;
     padding:0;
     Position:relative;
-    left:30px;
+    left:20px;
+    top:90px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -2682,7 +2688,7 @@ top:25px;
 {
     font-size: 20px;
     position: relative;
-    left:-3px;
+    left:190px;
     top:10px;
 }
 
@@ -2695,37 +2701,22 @@ top:25px;
 
 /*Travail sur le Bloc1*/
 
-.bloc1
-{
-    align-items: baseline;
-    position:relative;
-    left:80px;
-}
-
-.bloc2
-{   
-    position:relative;
-    left:95px;
-    bottom:10px;
-}
-
 .blocimage
 {
     flex-direction:row;
-    position: relative;
-    left:-25px;
+   
 }
 
 .blocimage2
 { 
    flex-direction: row;
    position:relative;
-   left:-25px;
+   left:-320px;
 }
 
 .titreactivite1
 {
-    width: 236px;
+    width: 281px;
     font-size: 16px;
     position: relative;
     top:140px;
@@ -2736,14 +2727,16 @@ top:25px;
 .activimage1
 {
     width: 260px;
-    height: 185px;    
+    height: 185px; 
+    position: relative;
+    left:15px;
 }
 
 
 .activite1
 {
-    width: 250px;
-    height: 185px; 
+    width: 295px;
+    height: 185px;  
 }
 
 
@@ -2751,7 +2744,7 @@ top:25px;
 
 .titreactivite2
 {
-    width: 236px;
+    width: 281px;
     font-size: 16px;
     position: relative;
     top:140px;
@@ -2764,19 +2757,20 @@ top:25px;
     width:260px;
     height:185px; 
     padding-right:30px;
-   
+    position: relative;
+    left:60px;
 }
 
 
 .activite2
 {
-    width: 250px;
-    height: 185px; 
+    width: 295px;
+    height: 185px;  
 }
 
 .titreactivite3
 {
-    width: 236px;
+    width: 281px;
     font-size: 16px;
     position: relative;
     top:135px;
@@ -2787,13 +2781,16 @@ top:25px;
 .activimage3
 {
     width: 250px;
-    height: 185px;  
+    height: 185px; 
+    position:relative;
+    right:555px; 
+    top:258px;
 }
 
 .activite3
 {
-    width: 250px;
-    height: 180px;
+    width: 295px;
+    height: 185px;  
     position: relative;
     bottom:105px;
 }
@@ -2806,7 +2803,7 @@ top:25px;
 .titreactivite4
 {
    
-    width: 236px;
+    width: 281px;
     font-size: 16px;
     position: relative;
     top:145px;
@@ -2819,15 +2816,16 @@ top:25px;
 {
     width: 250px;
     height: 185px;
-    
-    
+    position:relative;
+    bottom:10px;
+    left:330px; 
 }
 
 
 .activite4
 {
-    width: 250px;
-    height: 185px;
+    width: 295px;
+    height: 185px;  
 }
 
 
@@ -2835,12 +2833,10 @@ top:25px;
 /*division du bloc2*/
 
 
-
-
 .titreactivite5
 {
     
-    width: 236px;
+    width: 281px;
     font-size: 16px;
     position: relative;
     top:140px;
@@ -2853,21 +2849,22 @@ top:25px;
 {
     width: 250px;
     height: 185px;
+    position: relative;
+    left:65px;
+    top:255px;
     
 }
 
 .activite5
 {
-    width: 250px;
-    height: 185px;
-   
+    width: 295px;
+    height: 185px;  
 }
 
 
 .titreactivite6
 {
-    
-    width: 236px;
+    width:281px;
     font-size: 16px;
     position: relative;
     top:195px;
@@ -2881,16 +2878,15 @@ top:25px;
     width: 250px;
     height: 185px;
     position:relative;
-    left: 35px;
-    bottom:60px;
+    left:140px;
+    top:200px;
 }
 
 
 .activite6
 {
-    width: 250px;
-    height: 185px;
-    
+    width: 295px;
+    height: 185px;  
 }
 
 
@@ -2899,9 +2895,9 @@ top:25px;
 
 .footer
 {
-    width: 890px;
+    width:700px;
     box-sizing: border-box;
-    height: 210px;
+    height:190px;
     border-radius: 20px;
     margin:0;
     padding:0;
@@ -2909,9 +2905,8 @@ top:25px;
     align-items: baseline;
     justify-content: center;
     position: relative;
-    top:100px; 
-    left:30px;
- 
+    top:125px; 
+    left:20px;
 }
 
 
@@ -2919,10 +2914,14 @@ top:25px;
 
 .titrefooter
 {
-    font-size: 18px;
+    font-size: 14px;
     flex-direction: row;
 }
 
+.listeA
+{
+    font-size: 15px;
+}
 
 /*Travail sur les Bloc 1*/
 
@@ -2931,9 +2930,8 @@ top:25px;
 {
     width:290px;
     position: relative;
-    top:5px;
-    right:60px; 
-   
+    top:20px;
+    left:20px; 
 }
 
 
@@ -2944,8 +2942,8 @@ top:25px;
     width: 200px;
     height: 200px;
     position: relative;
-    top:5px;
-    right:30px;
+    top:20px;
+    left:10px;
    
 }
 
@@ -2954,12 +2952,12 @@ top:25px;
 
 .assistance
 {
-    width: 200px;
-    height: 200px;
+    width:150px;
+    height: 150px;
     position: relative;
-    top:5px;
-    left:45px;
- 
+    top:20px;
+    left:5px;
+   
 }
 
 }

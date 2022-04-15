@@ -2160,7 +2160,7 @@ top:5px;
 /*********************************************************************************************************************************************/
 
 
-@media (min-width:768px) and (max-width:800px)
+@media (min-width:799px) and (max-width:944px)
 
 
 {
@@ -2171,7 +2171,7 @@ body
     background-color: green;
     overflow-x: hidden;
     justify-content: center;
-    padding-left:10px;
+    padding-left:20px;
 }
 
 /*travail sur la balise H1 et le paragraphe ci-dessous*/
@@ -2954,6 +2954,815 @@ h1 + p
 {
     width:150px;
     height: 150px;
+    position: relative;
+    top:20px;
+    left:5px;
+   
+}
+
+}
+
+
+
+
+
+/************************************************************************************************************************************************/
+
+
+
+
+@media (min-width:768px) and (max-width:798px)
+
+
+{
+
+   
+body 
+{
+    background-color:blue;
+    overflow-x: hidden;
+    justify-content: center;
+    padding-left:10px;
+}
+
+/*travail sur la balise H1 et le paragraphe ci-dessous*/
+
+h1
+{
+    font-size: large;
+    padding-left: 30px;
+    
+}
+
+h1 + p
+{
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.tabpositionh1
+{
+  font-size: 20px;
+  position: relative;
+  top:20px;
+}
+
+.tabpositionp
+{
+  position: relative;
+  top:10px;
+  padding-bottom: 20px;
+}
+
+
+/*Travail sur les Filtres*/
+
+
+.filtre /*toutes ma colonne de filtres*/
+{
+    
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 10px;
+    margin:0px;
+    padding:0;
+    padding-top:20px;
+    height: 70px;
+    position:relative;
+    left:30px;
+}
+
+.F1{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+    position: relative;
+    top:35px;
+}
+
+
+.F2 /*ma bordure de filtre*/
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    margin:0;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around; 
+}
+
+
+.iconefiltres
+{
+    border-radius: 30px;
+    font-size: 25px;
+    width: 45px;
+    height: 40px;
+    margin:0px;
+    padding: 0px;
+    color: #0065FC;
+    background-color:#F2F2F2 ;
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+    padding-top: 10px;
+    
+}
+
+.recadre
+{
+  position:relative;
+  top:5px;
+
+}
+
+.recadre1
+{
+    font-size:30px;
+    margin: 0;
+    position: relative;
+    left:0px;
+}
+
+.ftext
+{
+    font-size: 17px;
+    font-weight: bolder;
+    display: flex;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:15px;
+    
+}
+
+.ftext:hover
+{
+    color: #0065FC;
+    text-transform:none;
+}
+
+.ftext2
+{
+    position:relative;
+    left:15px;
+}
+
+.ftext3
+{
+    position: relative;
+    left:30px;
+}
+
+
+.ftext4
+{
+    display:flex;
+    position: relative;
+    right:495px;
+    top:70px;
+    
+
+}
+
+/*travail sur l'info 500 logements*/
+
+.info 
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position:relative;
+    top:60px;
+}
+.infopositionp
+{
+  font-size: 18px;
+}
+
+
+/*effet de la ligne bleu sur la navigation*/
+
+.pose1
+{
+    width:150px ;
+    position:relative;
+    left:280px;
+} 
+
+  
+/*Travail sur le Main=contenue de la page"*/
+
+#hebergementmarseille
+{
+    display: block;
+    width:700px;
+    box-sizing: content-box;
+    padding:0;
+    margin:0;
+    padding-right:-30px;
+    position: relative;
+    left:20px;
+    top:50px;
+}
+
+.blochebergement
+{
+    flex-grow:1;
+    width:700px;
+    height: 1030px;
+    display: block;
+    flex-direction: column;
+    align-items:baseline;
+    background-color:#F2F2F2;
+    margin:0px;
+    padding: 0px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.blocpopulaire
+{
+    width:700px;
+    height:400px;
+    margin:0;
+    padding:0;
+    background-color: #F2F2F2;
+    box-sizing:content-box;
+    border-radius: 20px;
+
+    
+}
+
+.grostitre1
+{
+    font-size: 28px;
+    display: flex;
+    padding-top:20px ;
+    padding-bottom:50px;
+    align-items: center;
+    position:relative;
+    left:120px;
+    top:20px;
+   
+}
+
+
+.grostitre2
+{
+    font-size: 28px;
+    display: flex;
+    padding-top:15px;
+    padding-bottom:5px;
+    position: relative;
+    left:160px;
+    
+}
+
+
+.iconechart
+{
+    font-size: 22px;
+    padding-left:0px;
+    position: relative;
+    left:180px;
+    
+}
+
+/*travail sur les colognes 1 et 2, partie hébergement à Marseille */
+
+
+.image1, .image2
+{
+    width:295px;
+    height:165px;
+    object-fit: cover;
+}
+
+
+.fond1, .fond2 
+{
+    width:210px;
+}
+
+.titrehotel1, .soutitre1
+{
+    font-size: 15px;
+}
+
+
+.titrehotel2, .soustitre2
+{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+
+
+
+.positionimg1, .fondpose1
+{
+    position:relative;
+    left:30px;
+}
+
+.fondpose1
+{
+    width: 305px;
+}
+
+.positionimg2, .fondpose2
+{
+    position:relative;
+    left:55px;
+}
+
+.fondpose2
+{
+    width: 305px;
+}
+
+
+.positionimg3
+{
+    position: relative;
+    right:580px;
+    top:270px;
+  
+
+}
+
+.fondpose3
+{
+    width: 305px;
+    position: relative;
+    top:250px;
+    right:580px;
+    
+}
+
+
+.posimge3
+{
+    position: relative;
+    left:360px;
+    bottom:35px;
+}
+
+.fondpos3
+{
+    width:295px;
+    position: relative;
+    bottom:69px;
+    left:360px;
+}
+
+
+
+.posimg4
+{
+    position:relative;
+    top:250px;
+    left:-275px;
+}
+
+
+.fondpose4
+{
+    width:295px;
+    position:relative;
+    top:230px;
+    right:275px;
+   
+}
+
+.posimg5
+{
+    position:relative;
+    left:-250px;
+    top:250px;
+}
+
+
+.fondpose5
+{
+    width:295px;
+    height:95px;
+    position:relative;
+    right:250px;
+    top:225px;
+}
+
+
+.plus
+{
+    position:relative;
+    top:290px;
+    right:15px;
+    left:42px;
+}
+
+/*positionnement de l'icone chart sur le bloc les plus populaires*/
+
+
+/*Travail sur la partie les plus populaires*/
+
+
+
+.tab1
+{
+    align-items:baseline;
+    width:200px;
+    height:140px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0;
+    position: relative;
+    left: 125px; 
+}
+
+.fond3
+{
+    background-color:white;
+    width:210px;
+    height: 100px;
+    margin:0px;
+    padding:0px;
+    display: flex;
+    border:none;
+    border-top-right-radius:0;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    left:-85px;
+    top:0px;
+    z-index: 1;
+}
+
+.tablette1
+{
+    position:relative;
+    right:130px;
+    top:15px;
+}
+
+.tablette2
+{
+    position:relative;
+    left:95px;
+    bottom:215px;
+}
+
+.tablette3
+{
+    position:relative;
+    left:320px;
+    bottom:445px;
+}
+
+
+
+.titrehotel3
+{
+    font-size: 14px;
+    width: 220px;
+    margin:0px;
+    padding:0px;
+    font-weight: bolder;
+    position: relative;
+    left:20px;
+    top:10px;
+}
+
+
+.soustitre3
+{
+    font-size:16px;
+    margin:0px;
+    padding:0px;
+    padding-left:20px;
+    font-weight: lighter;
+    position: relative;
+    top:20px;
+}
+
+.taby
+{
+  position:relative;
+  top:8px;
+}
+
+
+
+.etoilex
+{
+    position: relative;
+    left:18px;
+    top:30px;
+}
+
+.etoiley
+{
+    position: relative;
+    left:18px;
+    top:13px;
+}
+
+.etoilez
+{
+  position: relative;
+  left:18px;
+  top:30px;
+  }
+
+
+/*Travail sur la Partie Activités à Marseille*/
+
+#activitemarseille
+{
+    flex-grow: 1;
+    width:700px;
+    height: 920px;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    Position:relative;
+    left:20px;
+    top:90px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+
+.grostitre3
+{
+    font-size: 20px;
+    position: relative;
+    left:190px;
+    top:10px;
+}
+
+
+.conteneur
+{
+    flex-direction: column;
+}
+
+
+/*Travail sur le Bloc1*/
+
+.blocimage
+{
+    flex-direction:row;
+   
+}
+
+.blocimage2
+{ 
+   flex-direction: row;
+   position:relative;
+   left:-320px;
+}
+
+.titreactivite1
+{
+    width: 281px;
+    font-size: 16px;
+    position: relative;
+    top:140px;
+    left:0px;
+    border-color:white; 
+}
+
+.activimage1
+{
+    width: 260px;
+    height: 185px; 
+    position: relative;
+    left:15px;
+}
+
+
+.activite1
+{
+    width: 295px;
+    height: 185px;  
+}
+
+
+/*division du bloc1*/
+
+.titreactivite2
+{
+    width: 281px;
+    font-size: 16px;
+    position: relative;
+    top:140px;
+    left:0px;
+    border-color:white; 
+}
+
+.activimage2
+{
+    width:260px;
+    height:185px; 
+    padding-right:30px;
+    position: relative;
+    left:60px;
+}
+
+
+.activite2
+{
+    width: 295px;
+    height: 185px;  
+}
+
+.titreactivite3
+{
+    width: 281px;
+    font-size: 16px;
+    position: relative;
+    top:135px;
+    left:0px;
+    border-color:white; 
+}
+
+.activimage3
+{
+    width: 250px;
+    height: 185px; 
+    position:relative;
+    right:555px; 
+    top:258px;
+}
+
+.activite3
+{
+    width: 295px;
+    height: 185px;  
+    position: relative;
+    bottom:105px;
+}
+
+
+
+/*Travail sur le Bloc2 */
+
+
+.titreactivite4
+{
+   
+    width: 281px;
+    font-size: 16px;
+    position: relative;
+    top:145px;
+    left:-10px;
+    border-color:white; 
+}
+
+
+.activimage4
+{
+    width: 250px;
+    height: 185px;
+    position:relative;
+    bottom:10px;
+    left:330px; 
+}
+
+
+.activite4
+{
+    width: 295px;
+    height: 185px;  
+}
+
+
+
+/*division du bloc2*/
+
+
+.titreactivite5
+{
+    
+    width: 281px;
+    font-size: 16px;
+    position: relative;
+    top:140px;
+    left:0px;
+    border-color:white; 
+}
+
+
+.activimage5
+{
+    width: 250px;
+    height: 185px;
+    position: relative;
+    left:65px;
+    top:255px;
+    
+}
+
+.activite5
+{
+    width: 295px;
+    height: 185px;  
+}
+
+
+.titreactivite6
+{
+    width:281px;
+    font-size: 16px;
+    position: relative;
+    top:195px;
+    left:0px;
+    border-color:white; 
+}
+
+
+.activimage6
+{
+    width: 250px;
+    height: 185px;
+    position:relative;
+    left:140px;
+    top:200px;
+}
+
+
+.activite6
+{
+    width: 295px;
+    height: 185px;  
+}
+
+
+
+/*Travail sur le Footer, il y a 3 Bloc*/
+
+.footer
+{
+    width:700px;
+    box-sizing: border-box;
+    height:190px;
+    border-radius: 20px;
+    margin:0;
+    padding:0;
+    padding-top: 10px;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    top:125px; 
+    left:20px;
+}
+
+
+/*Travail sur les Titres*/
+
+.titrefooter
+{
+    font-size: 14px;
+    flex-direction: row;
+}
+
+.listeA
+{
+    font-size: 15px;
+}
+
+/*Travail sur les Bloc 1*/
+
+
+.apropos
+{
+    width:290px;
+    position: relative;
+    top:20px;
+    left:20px; 
+}
+
+
+/*Travail sur le Bloc 2*/
+
+.noshebergements
+{
+    width: 200px;
+    position: relative;
+    top:20px;
+    left:10px;
+   
+}
+
+
+/*Travail sur le Bloc 3*/
+
+.assistance
+{
+    width:150px;
     position: relative;
     top:20px;
     left:5px;

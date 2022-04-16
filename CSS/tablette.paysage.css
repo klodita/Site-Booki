@@ -5,7 +5,10 @@
 body 
 {
     background-color:chartreuse;
-
+    overflow-x: hidden;
+    justify-content: center;
+    padding-left:20px;
+    
 }
 
 /*travail sur la balise H1 et le paragraphe ci-dessous*/
@@ -153,17 +156,16 @@ h1 + p
     justify-content: center;
     padding:0;
     margin:0;
-    width:910px;
+    width:1180px;
     position: relative;
     left: 20px;
-    
 }
 
 .blochebergement
 {
     flex-grow:1;
-    width:890px;
-    height: 730px;
+    width:1160px;
+    height:780px;
     display: block;
     flex-direction: column;
     align-items:baseline;
@@ -178,8 +180,8 @@ h1 + p
 
 .blocpopulaire
 {
-    width:890px;
-    height:400px;
+    width:1160px;
+    height:430px;
     margin:0;
     padding:0;
     background-color: #F2F2F2;
@@ -194,12 +196,13 @@ h1 + p
 
 .grostitre1
 {
-    font-size: 28px;
+    font-size:28px;
     display: flex;
     align-items: center;
+    padding-bottom: 40px;
     position:relative;
     left:220px;
-    top:20px;
+    top:40px;
 }
 
 
@@ -234,48 +237,75 @@ h1 + p
     font-size: 15px;
     padding-bottom: 5px;
 }
-.cologne1
 
+.cologne1
 {
 position: relative;
-top:5px;
+top:20px;
+left:90px;
     
 }
 
+.positionimg1, .positionimg2, .positionimg3
+{
+    width: 330px;
+}
+
+.posimge3, .posimg4, .posimg5
+{
+    width: 330px;
+}
+
+.fondpose1, .fondpose2, .fondpose3
+{
+    width:340px;
+}
+
+.fondpos3, .fondpose4, .fondpose5
+{
+    width:330px;
+    position: relative;
+    bottom:20px;
+}
 
 .positionimg2, .fondpose2
 {
     position:relative;
-    right: 15px;
+    left:28px;
+    
 }
 
 .positionimg3, .fondpose3
 {
     position: relative;
-    right:30px;
+    left:55px;
 }
 
 .cologne2
 {
     position:relative;
     top:5px;
+    left:90px;
 }
+
 .posimg4, .fondpose4
 {
     position:relative;
-    left: -15px;
+    left:28px;
 }
 
 .posimg5, .fondpose5
 {
     position:relative;
-    left:-30px;
+    left:55px;
 }
 
 .plus
 {
     position:relative;
-    top:20px;
+    top:80px;
+    left:45px;
+  
 }
 
 /*positionnement de l'icone chart sur le bloc les plus populaires*/
@@ -306,12 +336,12 @@ top:5px;
     display:inline-flex;
     justify-content: space-around;
     flex-grow:1;
-    width: 290px;
+    width:330px;
     height: 240px;
     margin:0px;
     padding:0px; 
     position: relative;
-    right: 15px;
+    left:34px;
 }
 
 
@@ -321,7 +351,7 @@ top:5px;
     display:block;
     align-items:baseline;
     justify-content: space-around;
-    width:250px ;
+    width:330px ;
     height: 185px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -331,12 +361,16 @@ top:5px;
     border:5px solid white;  
 }
 
+.tablette1, .tablette2
+{
+    padding-right:25px;
+}
 
 
 .fond3
 {
     background-color:white;
-    width: 260px;
+    width:330px;
     height: 100px;
     flex-grow:1;
     margin:0px;
@@ -346,7 +380,7 @@ top:5px;
     border-top-right-radius:0;
     border-bottom-left-radius: 20px;
     position:absolute;
-    left:35px;
+    left:20px;
     bottom:-30px;
     z-index: 1;
 }
@@ -413,7 +447,7 @@ top:5px;
 #activitemarseille
 {
     flex-grow: 1;
-    width:890px;
+    width:1160px;
     height: 620px;
     box-sizing: border-box;
     margin:0;
@@ -429,7 +463,7 @@ top:5px;
 {
     font-size: 20px;
     position: relative;
-    left:-3px;
+    left:23px;
     top:10px;
 }
 
@@ -446,7 +480,7 @@ top:5px;
 {
     align-items: baseline;
     position:relative;
-    left:80px;
+    left:100px;
 }
 
 .bloc2
@@ -472,7 +506,7 @@ top:5px;
 
 .titreactivite1
 {
-    width: 236px;
+    width:320px;
     font-size: 16px;
     position: relative;
     top:140px;
@@ -489,7 +523,7 @@ top:5px;
 
 .activite1
 {
-    width: 250px;
+    width:330px;
     height: 185px; 
 }
 
@@ -498,7 +532,7 @@ top:5px;
 
 .titreactivite2
 {
-    width: 236px;
+    width:320px;
     font-size: 16px;
     position: relative;
     top:140px;
@@ -517,13 +551,15 @@ top:5px;
 
 .activite2
 {
-    width: 250px;
+    width:330px;
     height: 185px; 
+    position:relative;
+    left:75px;
 }
 
 .titreactivite3
 {
-    width: 236px;
+    width:320px;
     font-size: 16px;
     position: relative;
     top:135px;
@@ -539,9 +575,10 @@ top:5px;
 
 .activite3
 {
-    width: 250px;
+    width:330px;
     height: 180px;
     position: relative;
+    left:145px;
     bottom:105px;
 }
 
@@ -2160,7 +2197,7 @@ top:5px;
 /*********************************************************************************************************************************************/
 
 
-@media (min-width:799px) and (max-width:944px)
+@media (min-width:791px) and (max-width:944px)
 
 
 {
@@ -2971,7 +3008,7 @@ h1 + p
 
 
 
-@media (min-width:768px) and (max-width:798px)
+@media (min-width:768px) and (max-width:790px)
 
 
 {

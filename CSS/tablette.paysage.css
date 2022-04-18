@@ -13,101 +13,6 @@ body
 
 
 
-/*Travail sur les Filtres*/
-
-
-.filtre /*toutes ma colonne de filtres*/
-{
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    justify-content: space-between;
-    font-size: 10px;
-    margin:0;
-    padding: 0;
-    padding-left: 35px;
-    padding-top: 30px;
-    width:850px;
-    height: 70px;
-}
-
-.F1{
-    font-weight: bold;
-    font-size: 18px;
-    margin-right: 10px;
-}
-
-
-.F2 /*ma bordure de filtre*/
-{
-    border: 2px solid #F2F2F2;
-    height: 50px;
-    border-radius: 30px;
-    margin:0;
-    display: flex;
-    align-items:flex-start;
-    justify-content: space-between; 
-}
-
-
-.iconefiltres
-{
-    border-radius: 30px;
-    font-size: 25px;
-    width: 45px;
-    height: 40px;
-    margin:0px;
-    padding: 0px;
-    color: #0065FC;
-    background-color:#F2F2F2 ;
-    display: flex;
-    align-items: center;
-    padding-left: 17px;
-    padding-top: 10px;
-    
-}
-
-.recadre
-{
-  position:relative;
-  top:5px;
-}
-
-.recadre1
-{
-    font-size:30px;
-    margin: 0;
-    position: relative;
-    left:0px;
-}
-
-.ftext
-{
-    font-size: 17px;
-    font-weight: bolder;
-    display: flex;
-    padding-right:10px;
-    padding-left:10px;
-    padding-top:15px;
-    
-}
-
-.ftext:hover
-{
-    color: #0065FC;
-    text-transform:none;
-}
-
-
-
-/*travail sur l'info 500 logements*/
-
-.infopositionp
-{
-  font-size: 18px;
-}
-
-
 /*effet de la ligne bleu sur la navigation*/
 
 .pose1
@@ -522,8 +427,6 @@ left:90px;
 {
     width:330px;
     height:185px; 
-    
-   
 }
 
 
@@ -599,7 +502,6 @@ left:90px;
 
 .titreactivite5
 {
-    
     width:316px;
     font-size:16px;
     position: relative;
@@ -613,7 +515,6 @@ left:90px;
 {
     width:330px;
     height: 185px;
-    
 }
 
 .activite5
@@ -622,13 +523,11 @@ left:90px;
     height: 185px;
     position:relative;
     left:5px;
-   
 }
 
 
 .titreactivite6
 {
-    
     width:316px;
     font-size: 16px;
     position: relative;
@@ -670,9 +569,8 @@ left:90px;
     align-items: baseline;
     justify-content: center;
     position: relative;
-    top:100px; 
+    top:80px; 
     left:30px;
- 
 }
 
 
@@ -695,7 +593,6 @@ left:90px;
     position: relative;
     top:10px;
     right:190px; 
-   
 }
 
 
@@ -708,7 +605,6 @@ left:90px;
     position: relative;
     top:10px;
     right:100px;
-   
 }
 
 
@@ -721,7 +617,6 @@ left:90px;
     position: relative;
     top:10px;
     left:45px;
- 
 }
 
 }
@@ -802,7 +697,6 @@ body
     align-items: center;
     padding-left: 17px;
     padding-top: 10px;
-    
 }
 
 .recadre
@@ -827,14 +721,8 @@ body
     padding-right:10px;
     padding-left:10px;
     padding-top:15px;
-    
 }
 
-.ftext:hover
-{
-    color: #0065FC;
-    text-transform:none;
-}
 
 /*travail sur l'info 500 logements*/
 
@@ -865,7 +753,6 @@ body
     width:910px;
     position: relative;
     left: 20px;
-    
 }
 
 .blochebergement
@@ -917,7 +804,6 @@ body
     font-size: 28px;
     display: flex;
     margin:0;
-    
 }
 
 /*travail sur les colognes 1 et 2, partie hébergement à Marseille */
@@ -954,7 +840,6 @@ top:20px;
 .positionimg1, .positionimg2, .positionimg3
 {
     width:250px;
-
 }
 
 .posimge3, .posimg4, .posimg5
@@ -1049,7 +934,6 @@ top:20px;
 }
 
 
-
 .tab1
 {
     display:block;
@@ -1064,7 +948,6 @@ top:20px;
     left:20px;
     border:5px solid white;  
 }
-
 
 
 .fond3
@@ -1096,7 +979,6 @@ top:20px;
     position: relative;
     left:20px;
     top:10px;
-  
 }
 
 
@@ -1247,7 +1129,6 @@ top:20px;
     width:260px;
     height:185px; 
     padding-right:30px;
-   
 }
 
 
@@ -1304,8 +1185,6 @@ top:20px;
 {
     width: 250px;
     height: 185px;
-    
-    
 }
 
 
@@ -1324,7 +1203,6 @@ top:20px;
 
 .titreactivite5
 {
-    
     width: 236px;
     font-size: 16px;
     position: relative;
@@ -1338,20 +1216,17 @@ top:20px;
 {
     width: 250px;
     height: 185px;
-    
 }
 
 .activite5
 {
     width: 250px;
     height: 185px;
-   
 }
 
 
 .titreactivite6
 {
-    
     width: 236px;
     font-size: 16px;
     position: relative;
@@ -1375,7 +1250,6 @@ top:20px;
 {
     width: 250px;
     height: 185px;
-    
 }
 
 
@@ -1396,7 +1270,6 @@ top:20px;
     position: relative;
     top:80px; 
     left:30px;
- 
 }
 
 
@@ -1419,7 +1292,6 @@ top:20px;
     position: relative;
     top:5px;
     right:60px; 
-   
 }
 
 
@@ -1432,7 +1304,6 @@ top:20px;
     position: relative;
     top:5px;
     right:30px;
-   
 }
 
 
@@ -1445,7 +1316,6 @@ top:20px;
     position: relative;
     top:5px;
     left:45px;
-  
 }
 
 }
@@ -1454,8 +1324,7 @@ top:20px;
 
 
 
-/******************************************************************************TAILLE ECRAN TABLETTE LARGEUR MAXIMUM 1024PX**************************/
-
+/**********************************************************************************************************************************************/
 
 
 
@@ -1519,7 +1388,6 @@ body
     align-items: center;
     padding-left: 17px;
     padding-top: 10px;
-    
 }
 
 .recadre
@@ -1544,14 +1412,9 @@ body
     padding-right:10px;
     padding-left:10px;
     padding-top:15px;
-    
 }
 
-.ftext:hover
-{
-    color: #0065FC;
-    text-transform:none;
-}
+
 
 /*travail sur l'info 500 logements*/
 
@@ -1582,7 +1445,6 @@ body
     width:910px;
     position: relative;
     left: 20px;
-    
 }
 
 .blochebergement
@@ -1634,7 +1496,6 @@ body
     font-size: 28px;
     display: flex;
     margin:0;
-    
 }
 
 /*travail sur les colognes 1 et 2, partie hébergement à Marseille */
@@ -1671,7 +1532,6 @@ top:20px;
 .positionimg1, .positionimg2, .positionimg3
 {
     width:250px;
-
 }
 
 .posimge3, .posimg4, .posimg5
@@ -1813,7 +1673,6 @@ top:20px;
     position: relative;
     left:20px;
     top:10px;
-  
 }
 
 
@@ -1833,8 +1692,6 @@ top:20px;
   position:relative;
   top:8px;
 }
-
-
 
 
 .etoilex
@@ -1964,7 +1821,6 @@ top:20px;
     width:260px;
     height:185px; 
     padding-right:30px;
-   
 }
 
 
@@ -2021,8 +1877,6 @@ top:20px;
 {
     width: 250px;
     height: 185px;
-    
-    
 }
 
 
@@ -2035,8 +1889,6 @@ top:20px;
 
 
 /*division du bloc2*/
-
-
 
 
 .titreactivite5
@@ -2055,20 +1907,17 @@ top:20px;
 {
     width: 250px;
     height: 185px;
-    
 }
 
 .activite5
 {
     width: 250px;
     height: 185px;
-   
 }
 
 
 .titreactivite6
 {
-    
     width: 236px;
     font-size: 16px;
     position: relative;
@@ -2092,7 +1941,6 @@ top:20px;
 {
     width: 250px;
     height: 185px;
-    
 }
 
 
@@ -2113,7 +1961,6 @@ top:20px;
     position: relative;
     top:80px; 
     left:30px;
- 
 }
 
 
@@ -2136,7 +1983,6 @@ top:20px;
     position: relative;
     top:5px;
     right:60px; 
-   
 }
 
 
@@ -2149,7 +1995,6 @@ top:20px;
     position: relative;
     top:5px;
     right:30px;
-   
 }
 
 
@@ -2162,7 +2007,6 @@ top:20px;
     position: relative;
     top:5px;
     left:45px;
-  
 }
 
 }
@@ -2176,8 +2020,7 @@ top:20px;
 
 
 {
-
-   
+ 
 body 
 {
     background-color: green;
@@ -2191,7 +2034,6 @@ body
 
 .filtre /*toutes ma colonne de filtres*/
 {
-    
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -2238,14 +2080,12 @@ body
     align-items: center;
     padding-left: 17px;
     padding-top: 10px;
-    
 }
 
 .recadre
 {
   position:relative;
   top:5px;
-
 }
 
 .recadre1
@@ -2264,7 +2104,6 @@ body
     padding-right:10px;
     padding-left:10px;
     padding-top:15px;
-    
 }
 
 .ftext:hover
@@ -2292,8 +2131,6 @@ body
     position: relative;
     right:495px;
     top:70px;
-    
-
 }
 
 /*travail sur l'info 500 logements*/
@@ -2307,7 +2144,7 @@ body
 }
 .infopositionp
 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 
@@ -2360,8 +2197,6 @@ body
     background-color: #F2F2F2;
     box-sizing:content-box;
     border-radius: 20px;
-
-    
 }
 
 .grostitre1
@@ -2374,7 +2209,6 @@ body
     position:relative;
     left:120px;
     top:20px;
-   
 }
 
 
@@ -2386,9 +2220,9 @@ body
     padding-bottom:5px;
     position: relative;
     left:160px;
-    
 }
 
+/*positionnement de l'icone chart sur le bloc les plus populaires*/
 
 .iconechart
 {
@@ -2396,13 +2230,9 @@ body
     padding-left:0px;
     position: relative;
     left:180px;
-    
 }
 
 /*travail sur les colognes 1 et 2, partie hébergement à Marseille */
-
-
-
 
 
 .positionimg1, .positionimg2, .positionimg3
@@ -2425,7 +2255,6 @@ body
     width:295px;
 }
 
-
 .positionimg1
 {
     position:relative;
@@ -2439,7 +2268,6 @@ body
     left:30px;
     bottom:10px;
 }
-
 
 .positionimg2
 {
@@ -2464,11 +2292,9 @@ body
 
 .fondpose3
 {
-    
     position: relative;
     top:270px;
     right:580px;
-    
 }
 
 
@@ -2486,8 +2312,6 @@ body
     left:360px;
 }
 
-
-
 .posimg4
 {
     position:relative;
@@ -2501,7 +2325,6 @@ body
     position:relative;
     top:260px;
     right:275px;
-   
 }
 
 .posimg5
@@ -2527,11 +2350,8 @@ body
     left:42px;
 }
 
-/*positionnement de l'icone chart sur le bloc les plus populaires*/
-
 
 /*Travail sur la partie les plus populaires*/
-
 
 
 .tab1
@@ -2584,8 +2404,6 @@ body
     bottom:445px;
 }
 
-
-
 .titrehotel3
 {
     font-size: 14px;
@@ -2615,8 +2433,6 @@ body
   position:relative;
   top:8px;
 }
-
-
 
 .etoilex
 {
@@ -2657,7 +2473,6 @@ body
     border-radius: 20px;
 }
 
-
 .grostitre3
 {
     font-size: 20px;
@@ -2665,7 +2480,6 @@ body
     left:190px;
     top:10px;
 }
-
 
 .conteneur
 {
@@ -2770,7 +2584,6 @@ body
 }
 
 
-
 /*Travail sur le Bloc2 */
 
 
@@ -2803,13 +2616,11 @@ body
 }
 
 
-
 /*division du bloc2*/
 
 
 .titreactivite5
 {
-    
     width: 281px;
     font-size: 16px;
     position: relative;
@@ -2826,7 +2637,6 @@ body
     position: relative;
     left:65px;
     top:255px;
-    
 }
 
 .activite5
@@ -3011,14 +2821,12 @@ body
     align-items: center;
     padding-left: 17px;
     padding-top: 10px;
-    
 }
 
 .recadre
 {
-  position:relative;
-  top:5px;
-
+    position:relative;
+    top:5px;
 }
 
 .recadre1
@@ -3037,7 +2845,6 @@ body
     padding-right:10px;
     padding-left:10px;
     padding-top:15px;
-    
 }
 
 .ftext:hover
@@ -3065,8 +2872,6 @@ body
     position: relative;
     right:495px;
     top:70px;
-    
-
 }
 
 /*travail sur l'info 500 logements*/
@@ -3078,6 +2883,7 @@ body
     position:relative;
     top:60px;
 }
+
 .infopositionp
 {
   font-size: 18px;
@@ -3147,7 +2953,6 @@ body
     position:relative;
     left:120px;
     top:20px;
-   
 }
 
 
@@ -3159,9 +2964,9 @@ body
     padding-bottom:5px;
     position: relative;
     left:160px;
-    
 }
 
+/*positionnement de l'icone chart sur le bloc les plus populaires*/
 
 .iconechart
 {
@@ -3169,12 +2974,9 @@ body
     padding-left:0px;
     position: relative;
     left:180px;
-    
 }
 
 /*travail sur les colognes 1 et 2, partie hébergement à Marseille */
-
-
 
 .positionimg1, .positionimg2, .positionimg3
 {
@@ -3196,7 +2998,6 @@ body
     width:295px;
 }
 
-
 .positionimg1
 {
     position:relative;
@@ -3210,7 +3011,6 @@ body
     left:30px;
     bottom:10px;
 }
-
 
 .positionimg2
 {
@@ -3235,11 +3035,9 @@ body
 
 .fondpose3
 {
-    
     position: relative;
     top:270px;
     right:580px;
-    
 }
 
 
@@ -3257,8 +3055,6 @@ body
     left:360px;
 }
 
-
-
 .posimg4
 {
     position:relative;
@@ -3266,13 +3062,11 @@ body
     left:-275px;
 }
 
-
 .fondpose4
 {
     position:relative;
     top:260px;
     right:275px;
-   
 }
 
 .posimg5
@@ -3299,11 +3093,8 @@ body
     left:42px;
 }
 
-/*positionnement de l'icone chart sur le bloc les plus populaires*/
-
 
 /*Travail sur la partie les plus populaires*/
-
 
 
 .tab1
@@ -3384,8 +3175,8 @@ body
 
 .taby
 {
-  position:relative;
-  top:8px;
+    position:relative;
+    top:8px;
 }
 
 
@@ -3406,10 +3197,10 @@ body
 
 .etoilez
 {
-  position: relative;
-  left:18px;
-  top:30px;
-  }
+    position: relative;
+    left:18px;
+    top:30px;
+}
 
 
 /*Travail sur la Partie Activités à Marseille*/
@@ -3450,14 +3241,13 @@ body
 .blocimage
 {
     flex-direction:row;
-   
 }
 
 .blocimage2
 { 
-   flex-direction: row;
-   position:relative;
-   left:-320px;
+    flex-direction: row;
+    position:relative;
+    left:-320px;
 }
 
 .titreactivite1
@@ -3541,8 +3331,6 @@ body
     bottom:105px;
 }
 
-
-
 /*Travail sur le Bloc2 */
 
 
@@ -3556,7 +3344,6 @@ body
     left:-10px;
     border-color:white; 
 }
-
 
 .activimage4
 {
@@ -3573,7 +3360,6 @@ body
     width: 295px;
     height: 185px;  
 }
-
 
 
 /*division du bloc2*/
@@ -3598,7 +3384,6 @@ body
     position: relative;
     left:65px;
     top:255px;
-    
 }
 
 .activite5
@@ -3708,696 +3493,4 @@ body
 }
 
 
-
-
-
-/************************************************************************************************************************************************/
-
-
-@media (max-width:767px)
-
-{
-
-    body 
-    {
-        background-color:yellow;
-        
-    }
-    
-    /*travail sur la balise H1 et le paragraphe ci-dessous*/
-  
-    /*Travail sur les Filtres*/
-    
-    
-    .filtre /*toutes ma colonne de filtres*/
-    {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
-        justify-content: space-between;
-        font-size: 10px;
-        margin:0;
-        padding: 0;
-        padding-left: 35px;
-        padding-top: 30px;
-        width:850px;
-        height: 70px;
-    }
-    
-    .F1{
-        font-weight: bold;
-        font-size: 18px;
-        margin-right: 10px;
-    }
-    
-    
-    .F2 /*ma bordure de filtre*/
-    {
-        border: 2px solid #F2F2F2;
-        height: 50px;
-        border-radius: 30px;
-        margin:0;
-        display: flex;
-        align-items:flex-start;
-        justify-content: space-between; 
-    }
-    
-    
-    .iconefiltres
-    {
-        border-radius: 30px;
-        font-size: 25px;
-        width: 45px;
-        height: 40px;
-        margin:0px;
-        padding: 0px;
-        color: #0065FC;
-        background-color:#F2F2F2 ;
-        display: flex;
-        align-items: center;
-        padding-left: 17px;
-        padding-top: 10px;
-        
-    }
-    
-    .recadre
-    {
-      position:relative;
-      top:5px;
-    }
-    
-    .recadre1
-    {
-        font-size:30px;
-        margin: 0;
-        position: relative;
-        left:0px;
-    }
-    
-    .ftext
-    {
-        font-size: 17px;
-        font-weight: bolder;
-        display: flex;
-        padding-right:10px;
-        padding-left:10px;
-        padding-top:15px;
-        
-    }
-    
-    .ftext:hover
-    {
-        color: #0065FC;
-        text-transform:none;
-    }
-    
-    /*travail sur l'info 500 logements*/
-    
-    .infopositionp
-    {
-      font-size: 18px;
-    }
-    
-    
-    /*effet de la ligne bleu sur la navigation*/
-    
-    .pose1
-    {
-        position:relative;
-        left: 420px;
-    } 
-    
-      
-    /*Travail sur le Main=contenue de la page"*/
-    
-    #hebergementmarseille
-    {
-        display: block;
-        align-items: center;
-        justify-content: center;
-        padding:0;
-        margin:0;
-        width:910px;
-        position: relative;
-        left: 20px;
-        
-    }
-    
-    .blochebergement
-    {
-        flex-grow:1;
-        width:890px;
-        height: 730px;
-        display: block;
-        flex-direction: column;
-        align-items:baseline;
-        background-color:#F2F2F2;
-        margin:0px;
-        padding: 0px;
-        margin-bottom: 40px;
-        border-radius: 20px;
-        Position:relative;
-        left:10px;
-    }
-    
-    .blocpopulaire
-    {
-        width:890px;
-        height:400px;
-        margin:0;
-        padding:0;
-        background-color: #F2F2F2;
-        box-sizing:content-box;
-        border-radius: 20px;
-        display: block;
-        flex-direction: row;
-        Position:relative;
-        left:10px;
-        flex-grow:1; 
-    }
-    
-    .grostitre1
-    {
-        font-size: 28px;
-        display: flex;
-        align-items: center;
-        position:relative;
-        left:220px;
-        top:20px;
-    }
-    
-    
-    .grostitre2
-    {
-        font-size: 28px;
-        display: flex;
-        margin:0;
-        
-    }
-    
-    /*travail sur les colognes 1 et 2, partie hébergement à Marseille */
-    
-    .titrehotel1
-    {
-        font-size: 15px;
-    }
-    
-    .soustitre1
-    {
-        font-size: 15px;
-    }
-    
-    .titrehotel2
-    {
-        font-size: 15px;
-        padding-bottom: 5px;
-    }
-    
-    .soustitre2
-    {
-        font-size: 15px;
-        padding-bottom: 5px;
-    }
-    .cologne1
-    
-    {
-    position: relative;
-    top:5px;
-        
-    }
-    
-    
-    .positionimg2, .fondpose2
-    {
-        position:relative;
-        right: 15px;
-    }
-    
-    .positionimg3, .fondpose3
-    {
-        position: relative;
-        right:30px;
-    }
-    
-    .cologne2
-    {
-        position:relative;
-        top:5px;
-    }
-    .posimg4, .fondpose4
-    {
-        position:relative;
-        left: -15px;
-    }
-    
-    .posimg5, .fondpose5
-    {
-        position:relative;
-        left:-30px;
-    }
-    
-    .plus
-    {
-        position:relative;
-        top:20px;
-    }
-    
-    /*positionnement de l'icone chart sur le bloc les plus populaires*/
-    
-    .positionicon
-    
-    {
-        display:flex;
-        align-items: baseline;
-        justify-content: space-between;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        position: relative;
-        left:250px;
-    }
-    
-    .iconechart
-    {
-        font-size: 22px;
-        padding-left:50px;
-    }
-    
-    
-    /*Travail sur la partie les plus populaires*/
-    
-    .photo2
-    {
-        display:inline-flex;
-        justify-content: space-around;
-        flex-grow:1;
-        width: 290px;
-        height: 240px;
-        margin:0px;
-        padding:0px; 
-        position: relative;
-        right: 15px;
-    }
-    
-    
-    
-    .tab1
-    {
-        display:block;
-        align-items:baseline;
-        justify-content: space-around;
-        width:250px ;
-        height: 185px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0;
-        position:relative;
-        left:20px;
-        border:5px solid white;  
-    }
-    
-    
-    
-    .fond3
-    {
-        background-color:white;
-        width: 260px;
-        height: 100px;
-        flex-grow:1;
-        margin:0px;
-        padding:0px;
-        display: flex;
-        border:none;
-        border-top-right-radius:0;
-        border-bottom-left-radius: 20px;
-        position:absolute;
-        left:35px;
-        bottom:-30px;
-        z-index: 1;
-    }
-    
-    
-    .titrehotel3
-    {
-        font-size: 15px;
-        width: 220px;
-        margin:0px;
-        padding:0px;
-        font-weight: bolder;
-        position: relative;
-        left:20px;
-        top:10px;
-      
-    }
-    
-    
-    .soustitre3
-    {
-        font-size:16px;
-        margin:0px;
-        padding:0px;
-        padding-left:20px;
-        font-weight: lighter;
-        position: relative;
-        top:20px;
-    }
-    
-    .taby
-    {
-      position:relative;
-      top:8px;
-    }
-    
-    
-    
-    
-    .etoilex
-    {
-        position: relative;
-        left:18px;
-        top:30px;
-    }
-    
-    .etoiley
-    {
-        position: relative;
-        left:18px;
-        top:13px;
-    }
-    
-    .etoilez
-    {
-      position: relative;
-      left:18px;
-      top:30px;
-      }
-    
-    
-    /*Travail sur la Partie Activités à Marseille*/
-    
-    #activitemarseille
-    {
-        flex-grow: 1;
-        width:890px;
-        height: 620px;
-        box-sizing: border-box;
-        margin:0;
-        padding:0;
-        Position:relative;
-        left:30px;
-        background-color: #F2F2F2;
-        border-radius: 20px;
-    }
-    
-    
-    .grostitre3
-    {
-        font-size: 20px;
-        position: relative;
-        left:-3px;
-        top:10px;
-    }
-    
-    
-    .conteneur
-    {
-        flex-direction: column;
-    }
-    
-    
-    /*Travail sur le Bloc1*/
-    
-    .bloc1
-    {
-        align-items: baseline;
-        position:relative;
-        left:80px;
-    }
-    
-    .bloc2
-    {   
-        position:relative;
-        left:95px;
-        bottom:10px;
-    }
-    
-    .blocimage
-    {
-        flex-direction:row;
-        position: relative;
-        left:-25px;
-    }
-    
-    .blocimage2
-    { 
-       flex-direction: row;
-       position:relative;
-       left:-25px;
-    }
-    
-    .titreactivite1
-    {
-        width: 236px;
-        font-size: 16px;
-        position: relative;
-        top:140px;
-        left:0px;
-        border-color:white; 
-    }
-    
-    .activimage1
-    {
-        width: 260px;
-        height: 185px;    
-    }
-    
-    
-    .activite1
-    {
-        width: 250px;
-        height: 185px; 
-    }
-    
-    
-    /*division du bloc1*/
-    
-    .titreactivite2
-    {
-        width: 236px;
-        font-size: 16px;
-        position: relative;
-        top:140px;
-        left:0px;
-        border-color:white; 
-    }
-    
-    .activimage2
-    {
-        width:260px;
-        height:185px; 
-        padding-right:30px;
-       
-    }
-    
-    
-    .activite2
-    {
-        width: 250px;
-        height: 185px; 
-    }
-    
-    .titreactivite3
-    {
-        width: 236px;
-        font-size: 16px;
-        position: relative;
-        top:135px;
-        left:0px;
-        border-color:white; 
-    }
-    
-    .activimage3
-    {
-        width: 250px;
-        height: 185px;  
-    }
-    
-    .activite3
-    {
-        width: 250px;
-        height: 180px;
-        position: relative;
-        bottom:105px;
-    }
-    
-    
-    
-    /*Travail sur le Bloc2 */
-    
-    
-    .titreactivite4
-    {
-       
-        width: 236px;
-        font-size: 16px;
-        position: relative;
-        top:145px;
-        left:-10px;
-        border-color:white; 
-    }
-    
-    
-    .activimage4
-    {
-        width: 250px;
-        height: 185px;
-        
-        
-    }
-    
-    
-    .activite4
-    {
-        width: 250px;
-        height: 185px;
-    }
-    
-    
-    
-    /*division du bloc2*/
-    
-    
-    
-    
-    .titreactivite5
-    {
-        
-        width: 236px;
-        font-size: 16px;
-        position: relative;
-        top:140px;
-        left:0px;
-        border-color:white; 
-    }
-    
-    
-    .activimage5
-    {
-        width: 250px;
-        height: 185px;
-        
-    }
-    
-    .activite5
-    {
-        width: 250px;
-        height: 185px;
-       
-    }
-    
-    
-    .titreactivite6
-    {
-        
-        width: 236px;
-        font-size: 16px;
-        position: relative;
-        top:195px;
-        left:0px;
-        border-color:white; 
-    }
-    
-    
-    .activimage6
-    {
-        width: 250px;
-        height: 185px;
-        position:relative;
-        left: 35px;
-        bottom:60px;
-    }
-    
-    
-    .activite6
-    {
-        width: 250px;
-        height: 185px;
-        
-    }
-    
-    
-    
-    /*Travail sur le Footer, il y a 3 Bloc*/
-    
-    .footer
-    {
-        width: 890px;
-        box-sizing: border-box;
-        height: 210px;
-        border-radius: 20px;
-        margin:0;
-        padding:0;
-        padding-top: 10px;
-        align-items: baseline;
-        justify-content: center;
-        position: relative;
-        top:100px; 
-        left:30px;
-     
-    }
-    
-    
-    /*Travail sur les Titres*/
-    
-    .titrefooter
-    {
-        font-size: 18px;
-        flex-direction: row;
-    }
-    
-    
-    /*Travail sur les Bloc 1*/
-    
-    
-    .apropos
-    {
-        width:290px;
-        position: relative;
-        top:5px;
-        right:60px; 
-       
-    }
-    
-    
-    /*Travail sur le Bloc 2*/
-    
-    .noshebergements
-    {
-        width: 200px;
-        height: 200px;
-        position: relative;
-        top:5px;
-        right:30px;
-       
-    }
-    
-    
-    /*Travail sur le Bloc 3*/
-    
-    .assistance
-    {
-        width: 200px;
-        height: 200px;
-        position: relative;
-        top:5px;
-        left:45px;
-        
-     
-    }
-    
-    }
-    
-    
-    
-    
-    
 

@@ -1140,8 +1140,12 @@ h1 + p
     right: 80px;
 }
 
+/*Réservé pour la barre de recherche version mobile et petite tablette 600px */
 
-
+.loupe 
+{
+    display: none;
+}
 
 
 

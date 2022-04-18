@@ -294,21 +294,21 @@ h1 + p
 .blochebergement
 {
     flex:1;
-    height: 730px;
+    height:730px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
     justify-content: space-around;
     background-color: #F2F2F2;
     margin:20px;
-    padding: 20px;
+    padding:20px;
     border-radius: 20px;
 }
 
 .blocpopulaire
 {
     flex:1;
-    height: 730px;
+    height:730px;
     background-color: #F2F2F2;
     margin:20px;
     padding: 20px;
@@ -328,6 +328,8 @@ h1 + p
     padding-bottom: 22px;
     position: relative;
     right:30px;
+    bottom: 23px;
+    
 }
 
 .grostitre2
@@ -369,7 +371,7 @@ h1 + p
     justify-content: space-around;
     position: relative;
     right: 2px;
-    bottom:23px;
+    bottom:57px;
 }
 
 .cologne2
@@ -384,7 +386,7 @@ h1 + p
     justify-content: space-around;
     position: relative;
     left:2px;
-    bottom: 20px;
+    bottom:80px;
 }
 
 
@@ -397,14 +399,14 @@ h1 + p
     border-top-right-radius: 20px;
     margin:0px;
     padding:0px;
-    width: 250px;
+    width: 270px;
     height: 185px;
 }
 
 .fond1
 {
     background-color: white;
-    width: 260px;
+    width: 280px;
     height: 90px;
     margin:0px;
     padding:0px;
@@ -472,7 +474,7 @@ h1 + p
     border-top-right-radius: 20px;
     margin:0px;
     padding:0px;
-    width: 250px;
+    width: 270px;
     height: 185px;
     object-fit: cover;
     position: relative;
@@ -502,7 +504,7 @@ h1 + p
 .fond2
 {
     background-color: white;
-    width: 250px;
+    width: 270px;
     height: 90px;
     padding-left:10px;
     border-bottom-left-radius:20px;
@@ -539,7 +541,7 @@ h1 + p
     font-size: 18px;
     font-weight: bold;
     position: relative;
-    bottom:10px;
+    bottom:20px;
     left:30px;
 }
 

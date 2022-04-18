@@ -11,7 +11,7 @@
 
 body 
  {
-    background-color:yellow;
+    
     overflow-x: hidden;
     justify-content: center;
     padding-left:10px;
@@ -159,13 +159,13 @@ body
 
 .blocpopulaire
 {
-    display: flex;
+    display:block;
     align-items: baseline;
     width: 545px;
     border-radius:0;
     position: relative;
     right:50px;
-    bottom:3500px;
+    bottom:2700px;
     padding: auto;
 }
 
@@ -203,12 +203,12 @@ body
 .blochebergement
 {
     width:555px;
-    height:3300px;
+    height:2500px;
     display:flex;
     background-color:white;
     border-radius:0;
     position:relative;
-    top:630px;
+    top:620px;
     right:60px;
 }
 
@@ -216,14 +216,16 @@ body
 
 {
     position:relative;
-    bottom:335px;
+    top:-230px;
+    border:2px solid red;
+   
 }
 .cologne1
 {
     display:block;
     flex-direction: column;
     position:relative;
-    bottom:1015px;
+    bottom:710px;
 }
 
 .positionimg1, .positionimg2, .positionimg3
@@ -248,7 +250,7 @@ body
     display:block;
     flex-direction: column;
     position: relative;
-    top:250px;
+    bottom:345px;
 }
 
 .posimge3, .posimg4, .posimg5
@@ -265,15 +267,230 @@ body
     width:510px;
     position: relative;
     left:22px;
+    top:-45px;
+    box-shadow: 5px 7px 6px 5px #F2F2F2;
+}
+
+.plus
+{
+    position: relative;
+    top:120px;
+
+}
+
+
+/*Travail sur la Partie Activités à Marseille*/
+
+#activitemarseille
+{
+    flex-grow: 1;
+    width:700px;
+    height: 920px;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    Position:relative;
+    left:20px;
+    top:10px;
+    border-radius: 20px;
+}
+
+
+.grostitre3
+{
+    font-size:18px;
+    position: relative;
+    left:10px;
+    bottom:300px;
+}
+
+
+.conteneur
+{
+    flex-direction: column;
+}
+
+
+/*Travail sur le Bloc1*/
+
+.blocimage
+{
+    flex-direction:row;
+}
+
+.blocimage2
+{ 
+    flex-direction: row;
+}
+
+.titreactivite1
+{
+    width:495px;
+    font-size: 16px;
+    position: relative;
+    top:200px;
+    left:0px;
+    border-color:white; 
+    box-shadow: 5px 7px 6px 5px #F2F2F2;
+}
+
+.activimage1 
+{
+    position: relative;
+    bottom:210px;
+    right:20px;
+}
+
+.activite1
+{
+    width:510px;
+    height:270px; 
     box-shadow: 5px 7px 6px 5px #F2F2F2;
 }
 
 
-#activitemarseille
+/*division du bloc1*/
+
+.titreactivite2
 {
+    width:493px;
+    font-size: 16px;
     position: relative;
-    top:250px;
+    top:200px;
+    left:0px;
+    border-color:white; 
 }
+
+.activimage2
+{
+  
+    padding-right:30px;
+    position: relative;
+    top:100px;
+    right:370px;
+}
+
+
+.activite2
+{
+    width:510px;
+    height:270px;  
+}
+
+.titreactivite3
+{
+    width:510px;
+    font-size: 16px;
+    position: relative;
+    top:135px;
+    left:0px;
+    border-color:white; 
+}
+
+.activimage3
+{
+    position:relative;
+    right:555px; 
+    top:350px;
+}
+
+.activite3
+{
+    width:510px;
+    height:270px;  
+    position: relative;
+    bottom:0px;
+}
+
+/*Travail sur le Bloc2 */
+
+
+.titreactivite4
+{
+   
+    width: 281px;
+    font-size: 16px;
+    position: relative;
+    top:145px;
+    left:-10px;
+    border-color:white; 
+}
+
+.activimage4
+{
+    width: 250px;
+    height: 185px;
+    position:relative;
+    bottom:10px;
+    left:330px; 
+}
+
+
+.activite4
+{
+    width: 295px;
+    height: 185px;  
+}
+
+
+/*division du bloc2*/
+
+
+.titreactivite5
+{
+    
+    width: 281px;
+    font-size: 16px;
+    position: relative;
+    top:140px;
+    left:0px;
+    border-color:white; 
+}
+
+
+.activimage5
+{
+    width: 250px;
+    height: 185px;
+    position: relative;
+    left:65px;
+    top:255px;
+}
+
+.activite5
+{
+    width: 295px;
+    height: 185px;  
+}
+
+
+.titreactivite6
+{
+    width:281px;
+    font-size: 16px;
+    position: relative;
+    top:195px;
+    left:0px;
+    border-color:white; 
+}
+
+
+.activimage6
+{
+    width: 250px;
+    height: 185px;
+    position:relative;
+    left:140px;
+    top:200px;
+}
+
+
+.activite6
+{
+    width: 295px;
+    height: 185px;  
+}
+
 
 }
   
